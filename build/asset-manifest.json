@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5d384272.css",
+    "main.js": "/static/js/main.942ed73d.js",
+    "static/js/787.cf95e028.chunk.js": "/static/js/787.cf95e028.chunk.js",
+    "static/media/HeaderImg.png": "/static/media/HeaderImg.aeaa24af6c22cfd49c69.png",
+    "static/media/VideoImg.png": "/static/media/VideoImg.1d1b23897f954acd6a50.png",
+    "static/media/OLearing.png": "/static/media/OLearing.63a9cf9d7af5103dfb46.png",
+    "static/media/Gallery06.jpg": "/static/media/Gallery06.73d7a789ca64a9d9ec8f.jpg",
+    "static/media/Gallery09.jpg": "/static/media/Gallery09.e0fe5be5624026856c18.jpg",
+    "static/media/Gallery02.jpg": "/static/media/Gallery02.a471d0bdf0a7d3c2fb55.jpg",
+    "static/media/instructor-img2.png": "/static/media/instructor-img2.280985658fb54abd3020.png",
+    "static/media/Gallery05.jpg": "/static/media/Gallery05.d3fe99b4ab6bcf4c72f0.jpg",
+    "static/media/instructor-img1.png": "/static/media/instructor-img1.ff0fd3c58deebf58ff0c.png",
+    "static/media/Gallery07.jpg": "/static/media/Gallery07.1a7971a56cf0c698049c.jpg",
+    "static/media/Gallery08.jpg": "/static/media/Gallery08.86ffaf33f7f9e5f4f59e.jpg",
+    "static/media/Gallery01.jpg": "/static/media/Gallery01.77e3d2e54de1da3659d5.jpg",
+    "static/media/man.png": "/static/media/man.1a1131e34523ece22a02.png",
+    "static/media/Gallery03.jpg": "/static/media/Gallery03.e49094c7a410bf6ca0fb.jpg",
+    "static/media/Gallery04.jpg": "/static/media/Gallery04.cc1d63eab3781d01778c.jpg",
+    "static/media/instructor-img3.png": "/static/media/instructor-img3.bb31ff45ec19f180402a.png",
+    "static/media/course-img3.png": "/static/media/course-img3.c5d3a9eed325166b3b3e.png",
+    "static/media/course-img2.png": "/static/media/course-img2.fd03dc0bdb5d0b5607a6.png",
+    "static/media/course-img1.png": "/static/media/course-img1.c48911ed4d090c1bfb39.png",
+    "static/media/OurPImg1.png": "/static/media/OurPImg1.fc552183164e49db29e0.png",
+    "index.html": "/index.html",
+    "main.5d384272.css.map": "/static/css/main.5d384272.css.map",
+    "main.942ed73d.js.map": "/static/js/main.942ed73d.js.map",
+    "787.cf95e028.chunk.js.map": "/static/js/787.cf95e028.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5d384272.css",
+    "static/js/main.942ed73d.js"
+  ]
+}
