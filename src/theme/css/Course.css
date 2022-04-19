@@ -1,0 +1,298 @@
+
+.Course-Card {
+    border: none;
+    background-color: var(--whiteColor);
+    -webkit-box-shadow: 0px 8px 16px 0px rgb(146 184 255 / 20%);
+    box-shadow: 0 0 10px #e2e1e1;;
+    margin-bottom: 40px;
+}
+.Course-Card .course-card-img {
+    position: relative;
+}
+.Pricebox {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #FE4A55;
+    width: 80px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    border-radius: 0px 5px 0px 0px;
+}
+
+.Pricebox h1 {
+    font-size: 28px;
+    font-weight: 800;
+    color: white;
+    margin: 0 auto;
+}
+
+.Courses-body {
+  padding: 25px;
+}
+.Courses-body .card-title {
+    margin-bottom: 15px;
+}
+
+.Courses-body h6 {
+    font-size: 18px;
+    font-weight: 600;
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 0;
+    vertical-align: bottom;
+    color: #FE4A55;
+}
+
+.Courses-body i {
+    color: #707070;
+    font-size: 18px;
+}
+
+.Courses-text h4 {
+    font-size: 22px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.Courses-text p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.Course-Card:hover .Courses-body h4 {
+    color: #FE4A55;
+    transition: 0.5s ease;
+}
+
+
+.Course-content {
+    text-align: center;
+    max-width: 51%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.Course-content p {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.Course-content a {
+    color: red;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.CourseText1 {
+    display: inline-block;
+}
+
+.CourseText1 i {
+    color: #FE4A55;
+    display: inline-block;
+}
+
+.CourseText1 p {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 auto;
+    margin-left: 10px;
+    display: inline-block;
+     color: #707070;
+}
+
+.CourseText2 {
+    float: right;
+    display: -moz-inline-box;
+    display: -webkit-inline-box;
+}
+
+.CourseText2 i {
+    color: #FE4A55;
+    display: inline-block;
+}
+
+.CourseText2 p {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 auto;
+    margin-left: 10px;
+    display: inline-block;
+    color: #707070;
+}
+
+
+@media (min-width: 1200px) and (max-width: 1349px) {
+    .Course-Card {
+        margin-bottom: 24px;
+    }
+    .Pricebox {
+        width: 70px;
+    height: 40px;
+    }
+    .Pricebox h1 {
+        font-size: 25px;
+    }
+    .Courses-body h6 {
+        font-size: 17px;
+    }
+    .Courses-text h4 {
+        font-size: 21px;
+    }
+    .CourseText1 p {
+        font-size: 15px;
+    }
+    .CourseText2 p {
+        font-size: 15px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .Course-Card {
+        margin-bottom: 24px;
+    }
+    .Pricebox {
+        width: 70px;
+    height: 40px;
+    }
+    .Pricebox h1 {
+        font-size: 25px;
+    }
+    .Courses-body {
+        padding: 20px;
+    }
+    .Courses-body h6 {
+        font-size: 17px;
+    }
+    .Courses-text h4 {
+        font-size: 20px;
+    }
+    .CourseText1 p {
+        font-size: 15px;
+    }
+    .CourseText2 p {
+        font-size: 15px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .Course-Card {
+        margin-bottom: 24px;
+    }
+    .Pricebox {
+        width: 60px;
+        height: 36px;
+    }
+    .Pricebox h1 {
+        font-size: 20px;
+    }
+    .Courses-body {
+        padding: 15px;
+    }
+    .Courses-body .card-title i {
+        font-size: 16px;
+    }
+    .Courses-body h6 {
+        font-size: 15px;
+        margin-left: 5px;
+    }
+    .Courses-body .card-title {
+        margin-bottom: 12px;
+    }
+    .CourseText1 i {
+        font-size: 16px;
+    }
+    .CourseText2 i {
+        font-size: 16px;
+    }
+    .Courses-text h4 {
+        font-size: 18px;
+        margin-bottom: 12px;
+    }
+    .CourseText1 p {
+        font-size: 14px;
+        margin-left: 5px;
+    }
+    .CourseText2 p {
+        font-size: 14px;
+        margin-left: 5px;
+    }
+
+
+}
+@media (min-width: 576px) and (max-width: 767px) {
+    .Course-Card {
+        margin-bottom: 24px;
+    }
+    .Pricebox {
+        width: 70px;
+    height: 40px;
+    }
+    .Pricebox h1 {
+        font-size: 23px;
+    }
+    .Courses-body {
+        padding: 20px;
+    }
+    .Courses-body .card-title i {
+        font-size: 16px;
+    }
+    .Courses-body h6 {
+        font-size: 16px;
+    }
+    .Courses-body .card-title {
+        margin-bottom: 12px;
+    }
+    .Courses-text h4 {
+        font-size: 18px;
+        margin-bottom: 12px;
+    }
+    .CourseText1 p {
+        font-size: 15px;
+        margin-left: 5px;
+    }
+    .CourseText2 p {
+        font-size: 15px;
+        margin-left: 5px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 575px) {
+    .Course-Card {
+        margin-bottom: 24px;
+    }
+    .Pricebox {
+        width: 70px;
+    height: 40px;
+    }
+    .Pricebox h1 {
+        font-size: 23px;
+    }
+    .Courses-body {
+        padding: 20px;
+    }
+    .Courses-body .card-title i {
+        font-size: 16px;
+    }
+    .Courses-body h6 {
+        font-size: 16px;
+    }
+    .Courses-body .card-title {
+        margin-bottom: 12px;
+    }
+    .Courses-text h4 {
+        font-size: 18px;
+        margin-bottom: 12px;
+    }
+    .CourseText1 p {
+        font-size: 15px;
+        margin-left: 5px;
+    }
+    .CourseText2 p {
+        font-size: 15px;
+        margin-left: 5px;
+    }
+}

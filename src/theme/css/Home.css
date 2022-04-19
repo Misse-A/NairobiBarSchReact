@@ -1,0 +1,3288 @@
+/* home Page */
+
+
+/* Banner  */
+.BannerImg {
+    position: relative;
+}
+
+.Banner-Content {
+    position: absolute;
+    top: 20%;
+    right: 13%;
+    overflow: hidden;
+    left: 48%;
+}
+
+.Banner-Content h5 {
+    font-size: 20px;
+    font-weight: 800;
+    color: #FE4A55;
+    margin-bottom: 30px;
+}
+
+.Banner-Content h6 {
+    font-size: 60px;
+    font-weight: 800;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.Banner-Content p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 30px;
+    margin-right: 164px;
+    line-height: 1.9;
+}
+
+.Banner-Content-Button {
+    position: relative;
+}
+
+/* Home Banner card */
+.HomeBannerBox {
+    position: relative;
+}
+
+.HomeBannerBox::before {
+    position: absolute;
+    content: url("../../assets/shape/Shape8.png");
+    top: -145px;
+    right: 0;
+}
+
+.HomeBannerBox {
+    position: absolute;
+    bottom: -45px;
+}
+
+.HomeBanner-Card {
+    text-align: center;
+    max-width: 415px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .1);
+    border: none;
+    -webkit-transition: var(--transition);
+    transition: var(--transition);
+    cursor: pointer;
+}
+
+.HomeBanner-Card .card-body {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.HomeBanner-Card .card-title {
+    margin-bottom: 40px;
+}
+
+.HomeBanner-Card h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.HomeBanner-Card h5 {
+    font-size: 18px;
+    color: #707070;
+    margin-bottom: 20px;
+}
+
+.HomeBanner-Card h6 {
+    font-size: 20px;
+    font-weight: 800;
+    margin: 0 auto;
+}
+
+
+.HomeBanner-Card .card-body:hover h6 {
+    color: #FE4A55;
+    transition: 0.3s ease;
+}
+
+.HBtitle-img :hover {
+    filter: hue-rotate(0deg);
+    transition: 0.5s ease-in;
+}
+
+.HomeBanner-Card img {
+    filter: invert(30%) grayscale(100%) brightness(70%) contrast(4);
+}
+
+
+.HomeBanner-Card .card-body:hover img {
+    filter: none;
+    transform: rotateY(180deg);
+    transition: 0.5s ease-in-out;
+}
+
+
+/* online learing */
+.OLearing-section {
+    align-items: center;
+}
+
+.Online-learnig-Content h6 {
+    color: #FE4A55;
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.Online-learnig-Content h2 {
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.Online-learnig-Content p {
+    font-size: 17px;
+    font-weight: 600;
+    color: #707070;
+    line-height: 30px;
+    word-spacing: 2px;
+}
+
+.OLearing-text {
+    margin-bottom: 30px;
+}
+
+
+/* OurPopularCourse */
+.OurPCourses {
+    position: relative;
+
+}
+
+.OurPCourses::after {
+    position: absolute;
+    content: url("../../assets/OurPCourse/course-img4.png");
+    top: 16%;
+    bottom: 0;
+    left: -50px;
+    z-index: -1;
+}
+
+/*OurPopularCourse card-slider */
+.slick-slider [class*='col-'] {
+    padding: 0 12px;
+}
+
+.OpCourse-Card {
+    border: none;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+.OpCourse-Card:hover {
+    box-shadow: 0 0 10px #e2e1e1;
+}
+
+.OpCourse-Card .Opcourse-card-img {
+    position: relative;
+}
+
+.OpPricebox {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #FE4A55;
+    width: 80px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    border-radius: 0px 5px 0px 0px;
+}
+
+.OpPricebox h1 {
+    font-size: 28px;
+    font-weight: 800;
+    color: white;
+    margin: 0 auto;
+}
+
+.OpCourses-body {
+    padding: 35px;
+    background-color: #F6F1ED;
+    border-radius: 0px 0px 10px 10px;
+
+}
+
+.OpCourse-Card:hover .OpCourses-body {
+    background-color: #fff;
+    transition: 0.3s ease;
+}
+
+.OpCourses-body .card-title {
+    margin-bottom: 15px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.OpCourses-body h6 {
+    font-size: 18px;
+    font-weight: 600;
+    display: inline-block;
+    margin: 0 auto;
+    margin-left: 10px;
+    color: #FE4A55;
+    vertical-align: bottom;
+}
+
+.OpCourses-body .card-title i {
+    color: #707070;
+    font-size: 18px;
+    opacity: 0.5;
+    vertical-align: middle;
+}
+
+.OpCourses-text h4 {
+    font-size: 22px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.OpCourses-text p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.OpCourse-Card:hover .OpCourses-body h4 {
+    color: #FE4A55;
+    transition: 0.3s ease;
+}
+
+.OpCourseSlider .slick-prev {
+    background: none;
+    border-radius: 5px;
+    line-height: 0;
+    position: absolute;
+    top: 27%;
+    background-color: #FE4A55;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    transform: translate(0, -50%);
+    cursor: pointer;
+    text-align: center;
+    z-index: 1;
+    left: 35px;
+    margin: 0 auto;
+}
+
+.OpCourseSlider .slick-next {
+    background: none;
+    border-radius: 5px;
+    line-height: 0;
+    position: absolute;
+    top: 27%;
+    background-color: #FE4A55;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    transform: translate(0, -50%);
+    cursor: pointer;
+    text-align: center;
+    z-index: 1;
+    right: 35px;
+    margin: 0 auto;
+}
+
+.OpCourseSlider .slick-prev:before {
+    content: "\F104";
+    font-family: FontAwesome;
+    font-size: 25px;
+    line-height: 1;
+    opacity: 1;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.OpCourseSlider .slick-next:before {
+    content: "\F105";
+    font-family: FontAwesome;
+    font-size: 25px;
+    line-height: 1;
+    opacity: 1;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: none;
+}
+
+.OpCourseSlider .slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus {
+    color: white;
+    transition: 0.3s ease;
+}
+
+.OpCourseSlider .slick-initialized .slick-arrow:hover {
+    background-color: white;
+    border: none;
+    transition: 0.5s ease;
+}
+
+.OpCourseSlider .slick-initialized .slick-arrow:hover::before {
+    color: black;
+    transition: 0.5s ease;
+}
+
+.OpCourse-content {
+    text-align: center;
+    max-width: 53%;
+    margin: 0 auto;
+}
+
+.OpCourse-content p {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.OpCourse-content a {
+    color: red;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.OpCourseText1 {
+    display: inline-block;
+}
+
+.OpCourseText1 i {
+    color: #FE4A55;
+    display: inline-block;
+    font-size: 18px;
+}
+
+.OpCourseText1 p {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 auto;
+    margin-left: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.OpCourseText2 {
+    float: right;
+}
+
+.OpCourseText2 i {
+    color: #FE4A55;
+    display: inline-block;
+    font-size: 18px;
+}
+
+.OpCourseText2 p {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 auto;
+    margin-left: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Distance-Learing */
+.Distance-Img {
+    background-image: url("../../assets/DistantLearing/white-bg.png");
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-size: 100% 66%;
+}
+
+.DistanceLearing {
+    margin-bottom: 215px;
+}
+
+.DLearing {
+    padding-top: 70px;
+}
+
+.DLearing-user-box {
+    margin-bottom: 20px;
+}
+
+.Dlearing-img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.Dlearing-user {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+    line-height: 1.4;
+}
+
+.Dlearing-user h6 {
+    font-size: 18px;
+    font-weight: 800;
+    color: #FE4A55;
+}
+
+.Dlearing-user p {
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 600;
+    color: #707070;
+}
+
+.DLearing-left-Content h6 {
+    font-size: 17px;
+    font-weight: 700;
+    color: #FE4A55;
+    line-height: 1.9;
+    text-transform: uppercase;
+}
+
+.DLearing-left-Content h1 {
+    font-size: 44px;
+    font-weight: 800;
+    line-height: 1.4;
+}
+
+.DLearing-left-Content p {
+    font-size: 17px;
+    font-weight: 600;
+    color: #707070;
+    line-height: 1.9;
+}
+
+.DLearing-Slider-Img {
+    border: 1px solid #cbc5c9;
+    border-radius: 1%;
+    padding: 50px;
+    position: relative;
+    margin-top: 45px;
+}
+
+.DLearing-Slider-Img:after {
+    position: absolute;
+    content: url("../../assets/shape/Shape6.png");
+    top: -36px;
+    left: -41px;
+}
+
+.DLSlider-Content {
+    font-size: 19px;
+    font-weight: 600;
+    color: #707070;
+    line-height: 1.9;
+    position: relative;
+}
+
+.DLSlider-Content::before {
+    position: absolute;
+    content: url("../../assets/DistantLearing/quotation.png");
+    bottom: 0;
+    right: 0;
+}
+
+.DLearing-Slider-Img .slick-slide img {
+    display: inline;
+}
+
+.DLearing-Slider-Img .slick-dots li {
+    margin: 0;
+}
+
+.DLearing-Slider-Img .slick-dots li button:before {
+    font-size: 15px;
+    color: red;
+}
+
+.DLMainBox1 {
+    padding-top: 50%;
+}
+
+.DLMainBox2 {
+    padding-top: 40px;
+}
+
+.DLBox1 {
+    margin: 0 auto;
+}
+
+.DLBox2 {
+    margin: 0 auto;
+}
+
+.DLearingBox1 {
+    margin: 0 auto;
+    margin-top: 60%;
+    max-width: 244px;
+    min-height: 244px;
+    text-align: center;
+    margin-bottom: 40px;
+    border-radius: 50%;
+    background-color: #221638;
+    display: flex;
+    align-items: center;
+}
+
+.DLearingBox2 {
+    margin: 0 auto;
+    margin-top: 20%;
+    max-width: 244px;
+    min-height: 244px;
+    text-align: center;
+    margin-bottom: 40px;
+    border-radius: 50%;
+    background-color: #FE4A55;
+    display: flex;
+    align-items: center;
+}
+
+.DLearingBox3 {
+    margin: 0 auto;
+    margin-top: 20%;
+    max-width: 244px;
+    min-height: 244px;
+    text-align: center;
+    margin-bottom: 40px;
+    border-radius: 50%;
+    background-color: #FE4A55;
+    display: flex;
+    align-items: center;
+}
+
+.DLearingBox4 {
+    margin: 0 auto;
+    margin-top: 20%;
+    max-width: 244px;
+    min-height: 244px;
+    text-align: center;
+    margin-bottom: 40px;
+    border-radius: 50%;
+    background-color: #221638;
+    display: flex;
+    align-items: center;
+}
+
+.DLBoxtext h6 {
+    font-size: 50px;
+    font-weight: 800;
+    color: white;
+    margin: 0 auto;
+}
+
+.DLBoxtext p {
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    margin: 0 auto;
+
+}
+
+.a-one {
+    position: relative;
+    top: 0;
+    animation: MoveUpDownTop 6s linear infinite;
+}
+
+@keyframes a-one {
+    from {
+        top: 0;
+        left: 0;
+    }
+
+    to {
+        top: 20px;
+        left: 20px;
+    }
+}
+
+@keyframes MoveUpDownTop {
+    0%, 100% {
+        top: 0;
+    }
+
+    50% {
+        top: -40px;
+    }
+}
+
+.b-one {
+    position: relative;
+    bottom: 0;
+    animation: MoveUpDown 6s linear infinite;
+}
+
+@keyframes b-one {
+    from {
+        top: 0;
+        left: 0;
+    }
+
+    to {
+        bottom: 20px;
+        left: 20px;
+    }
+}
+
+@keyframes MoveUpDown {
+    0%, 100% {
+        bottom: 0;
+    }
+
+    50% {
+        bottom: -40px;
+    }
+}
+
+/* CourseInstrucation */
+.CInstrucation {
+    position: relative;
+}
+
+.CInstrucation::after {
+    position: absolute;
+    content: url("../../assets/CourseInstrucation/Group\ 22.png");
+    top: 80%;
+    bottom: 0;
+    right: -46px;
+    z-index: -1;
+}
+
+.CInstrucation-card {
+    border: 0px !important;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .1);
+}
+
+.CInstrucation-title {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.CInstrucation-title h1 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.CInstrucation-title h2 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #FE4A55;
+    margin: 0 auto;
+}
+
+.CInstrucation-card-img {
+    position: relative;
+    text-align: center;
+}
+
+.CInstrucation-social {
+    position: absolute;
+    bottom: -20px;
+    right: 0;
+    left: 0px;
+    margin: 0 auto;
+    transition: 0.3s ease;
+    opacity: 0;
+}
+
+.CInstrucation-card:hover .CInstrucation-social {
+    bottom: -10px;
+    opacity: 1;
+    transition: 0.3s ease;
+
+}
+
+.CInstrucation-social-icon li a {
+    min-width: 35px;
+    min-height: 35px;
+    background-color: white;
+    text-align: center;
+    margin-right: 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    padding-top: 4px;
+}
+
+.CInstrucation-social li a i {
+    font-size: 18px;
+    display: contents;
+}
+
+.CInstrucation-social-icon li a:hover {
+    color: white;
+    transition: 0.5s ease;
+    background-color: #FE4A55;
+}
+
+
+/* banner effect */
+
+.instructore_beffect {
+    display: block;
+    overflow: hidden;
+    position: relative;
+}
+
+.instructore_beffect img {
+    max-width: 100%;
+    width: 100%;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.instructore_beffect::before {
+    transform: scale(0, 1);
+    -webkit-transform: scale(0, 1);
+    -moz-transform: scale(0, 1);
+    -o-transform: scale(0, 1);
+    -ms-transform: scale(0, 1);
+}
+
+.instructore_beffect::after {
+    transform: scale(1, 0);
+    -webkit-transform: scale(1, 0);
+    -moz-transform: scale(1, 0);
+    -o-transform: scale(1, 0);
+    -ms-transform: scale(1, 0);
+}
+
+.instructore_beffect::before,
+.instructore_beffect::after {
+    content: "";
+    border-radius: 0px;
+    bottom: 10px;
+    left: 10px;
+    opacity: 0;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background: rgba(0, 0, 0, 0.1) none repeat scroll 0 0;
+    transition: opacity 0.35s ease 0s, transform 0.5s ease 0s;
+    -webkit-transition: opacity 0.35s ease 0s, transform 0.5s ease 0s;
+    -moz-transition: opacity 0.35s ease 0s, transform 0.5s ease 0s;
+    -o-transition: opacity 0.35s ease 0s, transform 0.5s ease 0s;
+    -ms-transition: opacity 0.35s ease 0s, transform 0.5s ease 0s;
+}
+
+.instructore_beffect:hover::before,
+.instructore_beffect:hover::after {
+    opacity: 1;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+}
+
+/* Self Development */
+.SelfDevelopment {
+    background-color: #f5f5f5;
+    border-radius: 5px;
+}
+
+.SelfDevelopment-Content {
+    margin-top: 85px;
+    margin-left: 85px;
+}
+
+.SelfDevelopment-Content h5 {
+    font-size: 17px;
+    font-weight: 600;
+    color: #FE4A55;
+    line-height: 1.6;
+}
+
+.SelfDevelopment-Content h6 {
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 1.6;
+}
+
+.SelfDevelopment-Content p {
+    font-size: 19px;
+    font-weight: 600;
+    color: #707070;
+    line-height: 1.9;
+}
+
+.SelfDUserimg {
+    text-align: end;
+}
+.SelfDUserimg img{
+    border-radius: 0 5px 5px 0;
+}
+
+/* Certification */
+.Certification {
+    text-align: center;
+    max-width: 57%;
+    margin: 0 auto;
+}
+
+.CertificationMain {
+    position: relative;
+}
+
+.CertificationMain::after {
+    position: absolute;
+    content: url("../../assets/shape/Shape1.png");
+    top: 0;
+    left: 80px;
+}
+
+.CertificationMain::before {
+    position: absolute;
+    content: url("../../assets/shape/Shape3.png");
+    right: 18%;
+    bottom: 37%;
+}
+
+.Certification h6 {
+    color: #FE4A55;
+    font-size: 17px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 1.7;
+}
+
+.Certification h2 {
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 1.6;
+}
+
+.Certification p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #707070;
+    position: relative;
+    line-height: 1.9;
+
+}
+
+.Certification p::before {
+    position: absolute;
+    content: url("../../assets/shape/Shape4.png");
+    top: 65px;
+    bottom: 0;
+    right: 0;
+}
+
+/* Video  */
+
+.VideoImg {
+    position: relative;
+}
+
+.VideoBox {
+    position: relative;
+}
+
+.VideoBox::after {
+    position: absolute;
+    content: url("../../assets/shape/Shape7.png");
+    top: -56px;
+    left: -58px;
+    z-index: -1;
+}
+
+.VideoBox::before {
+    position: absolute;
+    content: url("../../assets/shape/Shape5.png");
+    bottom: -67px;
+    right: -60px;
+    z-index: -1;
+}
+
+.Playbtn {
+    cursor: pointer;
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    box-sizing: content-box;
+    display: block;
+    width: 32px;
+    height: 44px;
+    /* background: #fa183d; */
+    border-radius: 50%;
+    padding: 18px 20px 18px 28px;
+}
+
+.Playbtn:before {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+    width: 80px;
+    height: 80px;
+    background: #FE4A55;
+    border-radius: 50%;
+    animation: pulse-border 1500ms ease-out infinite;
+}
+
+.Playbtn:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+    width: 80px;
+    height: 80px;
+    background: #FE4A55;
+    border-radius: 50%;
+    transition: all 200ms;
+}
+
+.Playbtn:hover:after {
+    background-color: darken(#FE4A55, 10%);
+}
+
+.Playbtn i {
+    display: block;
+    position: relative;
+    z-index: 3;
+    width: 0;
+    height: 0;
+    border-left: 32px solid #fff;
+    border-top: 22px solid transparent;
+    border-bottom: 22px solid transparent;
+}
+
+@keyframes pulse-border {
+    0% {
+        transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+        opacity: 1;
+    }
+
+    50% {
+        transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.3);
+        opacity: 0.5;
+    }
+
+    100% {
+        transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.6);
+        opacity: 0;
+    }
+}
+
+.modal-content {
+    background-color: transparent;
+    border: none;
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+
+/* Logo Slider */
+.LogoSlider {
+    background-color: #F6F1ED;
+    padding-top: 35px;
+    display: list-item;
+    padding-bottom: 35px;
+}
+
+/* Our Publication */
+
+.OurPublication {
+    position: relative;
+}
+
+.OurPublication::before {
+    position: absolute;
+    content: url("../../assets/OurPCourse/course-img4.png");
+    bottom: -40px;
+    right: -50px;
+    z-index: -1;
+}
+
+/*OurPopularCourse card-slider */
+.slick-slider [class*='col-'] {
+    padding: 0 12px;
+}
+
+.OurPublication-Card {
+    border: none;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.OurPublication-Card:hover {
+    box-shadow: 0 0 10px #e2e1e1;
+}
+
+.OurPublication-Card .OurPublication-card-img {
+    position: relative;
+}
+
+.OurPublicationPricebox {
+    position: absolute;
+    top: 90%;
+    right: 0;
+}
+
+.OurPublication-body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 35px;
+    background-color: #F6F1ED;
+    border-radius: 0px 0px 10px 10px;
+
+}
+
+.OurPublication-Card:hover .OurPublication-body {
+    background-color: #fff;
+    border-radius: 0px 0px 10px 10px;
+    transition: 0.5s ease;
+}
+
+.OurPublication-body .card-title {
+    margin-bottom: 15px;
+}
+
+.OurPublication-body h6 {
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 0;
+    color: #707070;
+}
+
+.OurPublication-body i {
+    color: #707070;
+    font-size: 18px;
+}
+
+.OurPublication-text h4 {
+    font-size: 22px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.OurPublication-text p {
+    Font-size: 17px;
+    font-weight: 400;
+    color: #707070;
+}
+
+.OurPublication-Card:hover .OurPublication-body h4 {
+    color: #FE4A55;
+    transition: 0.5s ease;
+}
+
+.OurPublication-content {
+    text-align: center;
+    max-width: 51%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.OurPublication-content p {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.OurPublication-content a {
+    color: red;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.OurPublicationText {
+    display: inline-block;
+}
+
+.OurPublicationText i {
+    color: #FE4A55;
+    display: inline-block;
+}
+
+.OurPublicationText p {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 auto;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.OurPublicationSlider .slick-prev {
+    background: none;
+    border-radius: 5px;
+    line-height: 0;
+    position: absolute;
+    top: 27%;
+    background-color: #FE4A55;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    transform: translate(0, -50%);
+    cursor: pointer;
+    text-align: center;
+    z-index: 1;
+    left: 35px;
+    margin: 0 auto;
+}
+
+.OurPublicationSlider .slick-next {
+    background: none;
+    border-radius: 5px;
+    line-height: 0;
+    position: absolute;
+    top: 27%;
+    background-color: #FE4A55;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    transform: translate(0, -50%);
+    cursor: pointer;
+    text-align: center;
+    z-index: 1;
+    right: 35px;
+    margin: 0 auto;
+}
+
+.OurPublicationSlider .slick-prev:before {
+    content: "\F104";
+    font-family: FontAwesome;
+    font-size: 25px;
+    line-height: 1;
+    opacity: 1;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.OurPublicationSlider .slick-next:before {
+    content: "\F105";
+    font-family: FontAwesome;
+    font-size: 25px;
+    line-height: 1;
+    opacity: 1;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: none;
+}
+
+.OurPublicationSlider .slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus {
+    color: white;
+    transition: 0.5s ease;
+}
+
+.OurPublicationSlider .slick-initialized .slick-arrow:hover {
+    background-color: white;
+    border: none;
+    transition: 0.5s ease;
+}
+
+.OurPublicationSlider .slick-initialized .slick-arrow:hover::before {
+    color: black;
+    transition: 0.5s ease;
+}
+
+/* NewsLetter */
+.NewsEmail {
+    position: relative;
+}
+
+.NewsLetter {
+    position: relative;
+}
+
+.NewsLetterBox {
+    background-color: #F5F5F5;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    position: relative;
+}
+
+.NewsLetterTitle {
+    text-align: center;
+    max-width: 57%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.NewsLetterTitle h6 {
+    color: #FE4A55;
+    font-size: 17px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 1.7;
+}
+
+.NewsLetterTitle h2 {
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 1.6;
+}
+
+.NewsLetterTitle p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #707070;
+    margin: 0 auto;
+    line-height: 1.9;
+    margin-bottom: 30px;
+
+}
+
+.NewsEmail input {
+    width: 100%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 5px;
+    border: none;
+    background-color: #e7e7e7;
+    padding-left: 20px;
+}
+/* .NewsEmail input:focus-visible{
+    border: none;
+} */
+
+
+.NewsEmail input::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #666666;
+    opacity: 0.5;
+    font-size: 16px
+}
+
+.NewsBtn {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.NewsLetter::after {
+    position: absolute;
+    content: url("../../assets/shape/Shape1.png");
+    top: 0;
+    left: 80px;
+}
+
+.NewsLetter::before {
+    position: absolute;
+    content: url("../../assets/shape/Shape2.png");
+    top: 26px;
+    right: 86px;
+}
+
+.NewsLetterTitle::before {
+    position: absolute;
+    content: url("../../assets/shape/Shape3.png");
+    top: -8px;
+    right: -56px;
+}
+
+@media (max-width:1350px) {
+
+
+
+    /* banner */
+    .Banner-Content {
+        top: 13%;
+        right: 0%;
+    }
+
+    .Banner-Content h5 {
+        font-size: 19px;
+        margin-bottom: 10px;
+    }
+
+    .Banner-Content h6 {
+        font-size: 45px;
+        margin-bottom: 10px;
+    }
+
+    .Banner-Content p {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    /* .HomeBannerBox {
+        bottom: -115px;
+    } */
+
+
+    /* our Popular course */
+    .OurPCourses::after {
+        display: none;
+    }
+
+    /* Course instrucation */
+    .CInstrucation::after {
+        display: none;
+    }
+
+    /* our publication */
+    .OurPublication::before {
+        display: none;
+    }
+}
+@media (min-width: 1600px) and (max-width: 1883px){
+    .Banner-Content h5{
+        margin-bottom: 20px;
+    }
+    .Banner-Content h6{
+        font-size: 45px;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 1599px){
+    .HomeBannerBox {
+        position: unset;
+        margin-top: 30px;
+    }
+    .Banner-Content h5{
+        margin-bottom: 20px;
+    }
+    .Banner-Content h6{
+        font-size: 45px;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 1409px){
+    .HomeBannerBox::before {
+        display: none;
+    }
+    .OurPCourses::after{
+        display:none;
+    }
+    .CInstrucation::after{
+        display: none;
+    }
+    .OurPublication::before{
+        display: none;
+    }
+    .Banner-Content{
+        top: 15%;
+    }
+    .Banner-Content p{
+        margin-bottom: 15px;
+        margin-right:110px
+    }
+    .Banner-Content h5{
+        margin-bottom: 15px;
+    }
+    .Banner-Content h6{
+        font-size: 40px;
+    margin-bottom: 15px;
+    }
+  
+}
+
+@media (min-width: 1200px) and (max-width: 1349px) {
+
+
+    /* banner */
+    .HomeBannerBox::before {
+        display: none;
+    }
+
+    .Banner-Content {
+        top: 13%;
+        right: 0%;
+    }
+
+    .Banner-Content h5 {
+        font-size: 19px;
+        margin-bottom: 15px;
+    }
+
+    .Banner-Content h6 {
+        font-size: 46px;
+        margin-bottom: 15px;
+    }
+
+    .Banner-Content p {
+        font-size: 17px;
+        margin-bottom: 15px;
+        margin-right: 70px;
+    }
+
+    .HomeBannerBox {
+        position: unset;
+        margin-top: 30px;
+    }
+
+    .HomeBanner-Card {
+        max-width: 356px;
+    }
+
+    .HomeBanner-Card h4 {
+        font-size: 22px;
+    }
+
+    /* online - learing */
+    .Online-learnig-Content h6 {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .Online-learnig-Content h2 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    .Online-learnig-Content p {
+        font-size: 16px;
+    }
+
+
+    /* our Popular course */
+
+    .OurPCourses::after {
+        display: none;
+    }
+
+    .OpCourses-body {
+        padding: 20px;
+    }
+
+    .OpCourse-content p {
+        font-size: 17px;
+    }
+
+    .OpCourses-body h6 {
+        font-size: 17px;
+    }
+
+    .OpCourses-text h4 {
+        font-size: 21px;
+    }
+
+    .OpCourseText1 p {
+        font-size: 15px;
+        margin-left: 5px;
+    }
+
+    .OpCourseText2 p {
+        font-size: 15px;
+        margin-left: 5px;
+    }
+
+    .OpCourse-content {
+        max-width: 61%;
+    }
+
+    /* Distance Learing  */
+    .Distance-Img {
+        background-image: none;
+    }
+
+    .DLearing-left-Content h6 {
+        font-size: 16px;
+    }
+
+    .DLearing-left-Content h1 {
+        font-size: 40px;
+        line-height: 1.3;
+    }
+
+    .DLearing-left-Content p {
+        font-size: 16px;
+    }
+
+    .DLearing-Slider-Img {
+        padding: 30px;
+        margin-top: 40px;
+    }
+
+    .DLSlider-Content {
+        font-size: 17px;
+    }
+
+    .DLBoxtext h6 {
+        font-size: 48px;
+    }
+
+    .DLBoxtext p {
+        font-size: 17px;
+    }
+
+    /* Course instrucation */
+    .CInstrucation::after {
+        display: none;
+    }
+
+    .CInstrucation-title h1 {
+        font-size: 23px;
+    }
+
+    .CInstrucation-title h2 {
+        font-size: 17px;
+    }
+
+    /* Self Development */
+
+    .SelfDevelopment-Content {
+        margin-top: 45px;
+        margin-left: 45px;
+    }
+
+    .SelfDevelopment-Content h5 {
+        font-size: 16px;
+    }
+
+    .SelfDevelopment-Content h6 {
+        font-size: 40px;
+    }
+
+    .SelfDevelopment-Content p {
+        font-size: 17px;
+    }
+
+    /* Certificate */
+
+    .Certification {
+        max-width: 61%;
+    }
+
+    .Certification h6 {
+        font-size: 16px;
+    }
+
+    .Certification h2 {
+        font-size: 40px;
+    }
+
+    .Certification p {
+        font-size: 17px;
+    }
+
+    .CertificationMain::after {
+        left: 50px;
+    }
+
+    .CertificationMain::before {
+        right: 16%;
+    }
+
+    /* our publication */
+    .OurPublication::before {
+        display: none;
+    }
+
+    .OurPublication-body {
+        padding: 20px;
+    }
+
+    .OurPublication-body h6 {
+        font-size: 17px;
+    }
+
+    .OurPublication-text h4 {
+        font-size: 20px;
+    }
+
+    .OurPublication-text p {
+        Font-size: 16px;
+    }
+
+    .OurPublicationText p {
+        font-size: 14px;
+    }
+
+    /* NewsLater */
+    .NewsLetterTitle h6 {
+        font-size: 16px;
+    }
+
+    .NewsLetterTitle h2 {
+        font-size: 40px;
+    }
+
+    .NewsLetterTitle p {
+        font-size: 17px;
+    }
+
+    .NewsEmail input::placeholder {
+        font-size: 15px;
+    }
+
+    .NewsLetterTitle::before {
+        top: 0;
+    }
+
+    .NewsLetter::before {
+        top: 70px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    /* banner */
+    .HomeBannerBox {
+        position: unset;
+        margin-top: 30px;
+    }
+
+    .HomeBannerBox::before {
+        display: none;
+    }
+
+    .Banner-Content {
+        right: 1%;
+    }
+
+    .Banner-Content h5 {
+        font-size: 18px;
+    }
+
+    .Banner-Content h6 {
+        font-size: 40px;
+    }
+
+    .Banner-Content p {
+        font-size: 17px;
+        margin-right: 0px;
+    }
+
+    .HomeBanner-Card .card-body {
+        padding-top: 40px;
+        padding-bottom: 41px;
+    }
+
+    .HomeBanner-Card .card-title {
+        margin-bottom: 20px;
+    }
+
+    .HomeBanner-Card h4 {
+        font-size: 23px;
+        margin-bottom: 20px;
+    }
+
+    .HomeBanner-Card h5 {
+        font-size: 17px;
+        margin-bottom: 20px;
+    }
+
+    .HomeBanner-Card h6 {
+        font-size: 19px;
+    }
+
+    /* online - learing */
+    .Online-learnig-Content h6 {
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+
+    .Online-learnig-Content h2 {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+
+    .Online-learnig-Content p {
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+
+    /* our Popular course */
+
+    .OurPCourses::after {
+        display: none;
+    }
+
+    .OpCourses-body {
+        padding: 20px;
+    }
+
+    .OpCourse-content p {
+        font-size: 16px;
+    }
+
+    .OpCourses-body h6 {
+        font-size: 17px;
+    }
+
+    .OpCourses-text h4 {
+        font-size: 19px;
+    }
+
+    .OpCourseText1 p {
+        font-size: 15px;
+        margin-left: 5px;
+    }
+
+    .OpCourseText2 p {
+        font-size: 15px;
+        margin-left: 5px;
+    }
+
+    .OpCourse-content {
+        max-width: 59%;
+    }
+
+    .OpPricebox {
+        width: 60px;
+        height: 35px;
+    }
+
+    .OpPricebox h1 {
+        font-size: 19px;
+    }
+
+    /* Distance Learing  */
+    .DLearing{
+        padding: 0;
+    }
+    .DistanceLearing {
+        margin-bottom: 70px;
+    }
+
+    .Distance-Img {
+        background-image: none;
+    }
+
+    .DLearing-left-Content h6 {
+        font-size: 15px;
+    }
+
+    .DLearing-left-Content h1 {
+        font-size: 30px;
+        line-height: 1.3;
+    }
+
+    .DLearing-user-box {
+        margin-bottom: 15px;
+    }
+
+    .Dlearing-user h6 {
+        font-size: 17px;
+    }
+
+    .Dlearing-user p {
+        font-size: 13px;
+    }
+
+    .DLearing-left-Content p {
+        font-size: 15px;
+    }
+
+    .DLearing-Slider-Img {
+        padding: 30px;
+        margin-top: 40px;
+    }
+
+    .DLSlider-Content {
+        font-size: 15px;
+    }
+
+    .DLBoxtext h6 {
+        font-size: 29px;
+    }
+
+    .DLBoxtext p {
+        font-size: 13px;
+    }
+
+    .DLearingBox1 {
+        max-width: 200px;
+        min-height: 200px;
+    }
+
+    .DLearingBox2 {
+        max-width: 200px;
+        min-height: 200px;
+    }
+
+    .DLearingBox3 {
+        max-width: 200px;
+        min-height: 200px;
+    }
+
+    .DLearingBox4 {
+        max-width: 200px;
+        min-height: 200px;
+    }
+
+    /* Course instrucation */
+    .CInstrucation::after {
+        display: none;
+    }
+
+    .CInstrucation-title h1 {
+        font-size: 20px;
+    }
+
+    .CInstrucation-title h2 {
+        font-size: 16px;
+    }
+
+    /* Self Development */
+
+    .SelfDevelopment-Content {
+        margin-top: 40px;
+        margin-left: 40px;
+    }
+
+    .SelfDevelopment-Content h5 {
+        font-size: 14px;
+        margin-bottom: 0px;
+    }
+
+    .SelfDevelopment-Content h6 {
+        font-size: 30px;
+    }
+
+    .SelfDevelopment-Content p {
+        font-size: 15px;
+    }
+
+    /* Certificate */
+
+    .Certification {
+        max-width: 70%;
+    }
+
+    .Certification h6 {
+        font-size: 15px;
+    }
+
+    .Certification h2 {
+        font-size: 30px;
+    }
+
+    .Certification p {
+        font-size: 16px;
+    }
+
+    .CertificationMain::after {
+        left: -26px;
+        top: -45px;
+    }
+
+    .CertificationMain::before {
+        right: 9%;
+    }
+
+    /* our publication */
+    .OurPublication::before {
+        display: none;
+    }
+
+    .OurPublication-body {
+        padding: 20px;
+    }
+
+    .OurPublication-body .card-title {
+        margin-bottom: 10px;
+    }
+
+    .OurPublication-body h6 {
+        font-size: 16px;
+    }
+
+    .OurPublication-text h4 {
+        font-size: 18px;
+    }
+
+    .OurPublication-text p {
+        Font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    .OurPublicationText p {
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+
+    /* NewsLater */
+    .NewsLetterTitle h6 {
+        font-size: 15px;
+    }
+
+    .NewsLetterTitle h2 {
+        font-size: 30px;
+    }
+
+    .NewsLetterTitle p {
+        font-size: 15px;
+    }
+
+    .NewsEmail input::placeholder {
+        font-size: 14px;
+    }
+
+    .NewsLetterTitle::before {
+        top: 0;
+    }
+
+    .NewsLetter::before {
+        top: 70px;
+        right:65px;
+    }
+    .NewsLetter::after{
+        left:20px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /* banner */
+    .HomeBannerBox {
+        position: unset;
+        margin-top: 30px;
+    }
+
+    .HomeBannerBox::before {
+        display: none;
+    }
+
+    .Banner-Content {
+        right: 1%;
+    }
+
+    .Banner-Content h5 {
+        font-size: 16px;
+    }
+
+    .Banner-Content h6 {
+        font-size: 28px;
+    }
+
+    .Banner-Content p {
+        display: none;
+        /* font-size: 17px;
+        margin-right: 0px; */
+    }
+
+    .HomeBanner-Card .card-body {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .HomeBanner-Card .card-title {
+        margin-bottom: 20px;
+    }
+
+
+    .HomeBanner-Card h4 {
+        font-size: 17px;
+        margin-bottom: 10px;
+    }
+
+    .HomeBanner-Card h5 {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+
+    .HomeBanner-Card h6 {
+        font-size: 17px;
+    }
+
+    /* online - learing */
+    .Online-learnig-Content h6 {
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+
+    .Online-learnig-Content h2 {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+    .Online-learnig-Content p {
+        font-size: 14px;
+        line-height: 25px;
+        margin-bottom: 10px;
+    }
+
+    /* our Popular course */
+
+    .OurPCourses::after {
+        display: none;
+    }
+
+    .OpCourses-body {
+        padding: 15px;
+    }
+
+    .OpCourse-content p {
+        font-size: 15px;
+    }
+
+    .OpCourses-body h6 {
+        font-size: 16px;
+        margin-left: 5px;
+    }
+
+    .OpCourses-body .card-title {
+        margin-bottom: 10px;
+    }
+
+    .OpCourses-text h4 {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    .OpCourseText1 p {
+        font-size: 14px;
+        margin-left: 5px;
+    }
+
+    .OpCourseText1 i {
+        font-size: 16px;
+    }
+
+    .OpCourseText2 i {
+        font-size: 16px;
+    }
+
+    .OpCourseText2 p {
+        font-size: 14px;
+        margin-left: 5px;
+    }
+
+    .OpCourse-content {
+        max-width: 71%;
+    }
+
+    .OpPricebox {
+        width: 60px;
+        height: 38px;
+    }
+
+    .OpPricebox h1 {
+        font-size: 20px;
+    }
+
+    .OpCourseSlider .slick-prev {
+        width: 28px;
+        height: 28px;
+        left: 25px;
+    }
+
+    .OpCourseSlider .slick-prev:before {
+        font-size: 20px;
+    }
+
+    .OpCourseSlider .slick-next {
+        width: 28px;
+        height: 28px;
+        right: 25px;
+    }
+
+    .OpCourseSlider .slick-next:before {
+        font-size: 20px;
+    }
+
+    /* Distance Learing  */
+    .DistanceLearing {
+        margin-bottom: 75px;
+    }
+
+    .Distance-Img {
+        background-image: none;
+    }
+
+    .DLearing-left-Content h6 {
+        font-size: 15px;
+    }
+
+    .DLearing-left-Content h1 {
+        font-size: 25px;
+        line-height: 1.2;
+    }
+
+    .DLearing-user-box {
+        margin-bottom: 10px;
+    }
+
+    .Dlearing-user h6 {
+        font-size: 16px;
+        margin: 0 auto;
+    }
+
+    .Dlearing-user p {
+        font-size: 13px;
+    }
+
+    .DLearing-left-Content p {
+        font-size: 14px;
+    }
+
+    .DLearing-Slider-Img {
+        padding: 20px;
+        margin-top: 40px;
+    }
+
+    .DLSlider-Content {
+        font-size: 13px;
+    }
+
+
+    .DLBoxtext h6 {
+        font-size: 30px;
+    }
+
+    .DLBoxtext p {
+        font-size: 13px;
+    }
+
+    .DLearing-Slider-Img .slick-dots {
+        bottom: -15px;
+    }
+
+    .DLearing-Slider-Img .slick-dots li button:before {
+        font-size: 13px;
+    }
+
+    .DLearing-Slider-Img:after {
+        display: none;
+    }
+
+    .DLearingBox1 {
+        max-width: 180px;
+        min-height: 180px;
+    }
+
+    .DLearingBox2 {
+        max-width: 180px;
+    min-height: 180px;
+    }
+
+    .DLearingBox3 {
+        max-width: 180px;
+        min-height: 180px;
+    }
+
+    .DLearingBox4 {
+        max-width: 180px;
+        min-height: 180px;
+    }
+
+    /* Course instrucation */
+    .CInstrucation::after {
+        display: none;
+    }
+
+    .CInstrucation-title h1 {
+        font-size: 19px;
+    }
+
+    .CInstrucation-title h2 {
+        font-size: 15px;
+    }
+
+    /* Self Development */
+
+    .SelfDevelopment-Content {
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .SelfDevelopment-Content h5 {
+        font-size: 14px;
+        margin-bottom: 0px;
+        line-height: 20px;
+    }
+
+    .SelfDevelopment-Content h6 {
+        font-size: 28px;
+        line-height: 40px;
+        margin-bottom: 0;
+    }
+
+    .SelfDevelopment-Content p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    /* Certificate */
+    .CertificationMain::after {
+        display: none;
+    }
+
+    .Certification {
+        max-width: 70%;
+    }
+
+    .Certification h6 {
+        font-size: 14px;
+    }
+
+    .Certification h2 {
+        font-size: 30px;
+    }
+
+    .Certification p {
+        font-size: 15px;
+    }
+
+    .CertificationMain::after {
+        left: -26px;
+        top: -45px;
+    }
+
+    .CertificationMain::before {
+        right: 9%;
+    }
+
+    /* our publication */
+    .OurPublication::before {
+        display: none;
+    }
+
+    .OurPublication-body {
+        padding: 20px;
+    }
+
+    .OurPublication-body .card-title {
+        margin-bottom: 10px;
+    }
+
+    .OurPublication-body h6 {
+        font-size: 16px;
+    }
+
+    .OurPublication-text h4 {
+        font-size: 18px;
+    }
+
+    .OurPublication-text p {
+        Font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    .OurPublicationText p {
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+
+    .OurPublicationSlider .slick-prev {
+        width: 28px;
+        height: 28px;
+        left: 25px;
+    }
+
+    .OurPublicationSlider .slick-prev:before {
+        font-size: 20px;
+    }
+
+    .OurPublicationSlider .slick-next {
+        width: 28px;
+        height: 28px;
+        right: 25px;
+    }
+
+
+    .OurPublicationSlider .slick-next:before {
+        font-size: 20px;
+    }
+
+
+    /* NewsLater */
+    .NewsLetterTitle h6 {
+        font-size: 16px;
+    }
+
+    .NewsLetterTitle h2 {
+        font-size: 30px;
+    }
+
+    .NewsLetterTitle p {
+        font-size: 16px;
+    }
+
+    .NewsEmail input {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .NewsEmail input::placeholder {
+        font-size: 14px;
+    }
+
+    .NewsLetter::after {
+        display: none;
+    }
+
+    .NewsLetterTitle::before {
+        display: none;
+    }
+
+    .NewsLetter::before {
+        display: none;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+   
+
+    /* banner */
+    .HomeBannerBox {
+        position: unset;
+        margin-top: 30px;
+    }
+
+    .HomeBannerBox::before {
+        display: none;
+    }
+
+    .Banner-Content {
+        right: 1%;
+        top: 10%;
+    }
+
+    .Banner-Content h5 {
+        font-size: 15px;
+    }
+
+    .Banner-Content h6 {
+        font-size: 22px;
+    }
+
+    .Banner-Content p {
+        display: none;
+        /* font-size: 17px;
+        margin-right: 0px; */
+    }
+
+    .HomeBanner-Card .card-body {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .HomeBanner-Card .card-title {
+        margin-bottom: 15px;
+    }
+
+    .HomeBanner-Card h4 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .HomeBanner-Card h5 {
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+
+    .HomeBanner-Card h6 {
+        font-size: 15px;
+    }
+
+    /* online - learing */
+    .Online-learnig-Content h6 {
+        font-size: 13px;
+        margin-bottom: 5px;
+    }
+
+    .Online-learnig-Content h2 {
+        font-size: 24px;
+        margin-bottom: 5px;
+    }
+
+    .Online-learnig-Content p {
+        font-size: 13px;
+        margin-bottom: 5px;
+        line-height: 20px;
+    }
+
+    /* our Popular course */
+
+    .OurPCourses::after {
+        display: none;
+    }
+
+    .OpCourses-body {
+        padding: 15px;
+    }
+
+    .OpCourse-content p {
+        font-size: 14px;
+    }
+
+    .OpCourses-body h6 {
+        font-size: 16px;
+        margin-left: 5px;
+    }
+
+    .OpCourses-body .card-title {
+        margin-bottom: 10px;
+    }
+
+    .OpCourses-text h4 {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    .OpCourseText1 p {
+        font-size: 14px;
+        margin-left: 5px;
+    }
+
+    .OpCourseText1 i {
+        font-size: 16px;
+    }
+
+    .OpCourseText2 i {
+        font-size: 16px;
+    }
+
+    .OpCourseText2 p {
+        font-size: 14px;
+        margin-left: 5px;
+    }
+
+    .OpCourse-content {
+        max-width: 81%;
+    }
+
+    .OpPricebox {
+        width: 60px;
+        height: 38px;
+    }
+
+    .OpPricebox h1 {
+        font-size: 20px;
+    }
+
+    .OpCourseSlider .slick-prev {
+        width: 28px;
+        height: 28px;
+    }
+
+    .OpCourseSlider .slick-prev:before {
+        font-size: 20px;
+    }
+
+    .OpCourseSlider .slick-next {
+        width: 28px;
+        height: 28px;
+    }
+
+    .OpCourseSlider .slick-next:before {
+        font-size: 20px;
+    }
+
+    /* Distance Learing  */
+    .DistanceLearing {
+        margin-bottom: 60px;
+    }
+
+    .Distance-Img {
+        background-image: none;
+    }
+
+    .DLearing-left-Content h6 {
+        font-size: 15px;
+    }
+
+    .DLearing-left-Content h1 {
+        font-size: 25px;
+        line-height: 1.2;
+    }
+
+    .DLearing-user-box {
+        margin-bottom: 10px;
+    }
+
+    .Dlearing-user h6 {
+        font-size: 16px;
+        margin: 0 auto;
+    }
+
+    .Dlearing-user p {
+        font-size: 13px;
+    }
+
+    .DLearing-left-Content p {
+        font-size: 14px;
+    }
+
+    .DLearing-Slider-Img {
+        padding: 20px;
+        margin-top: 40px;
+    }
+
+    .DLSlider-Content {
+        font-size: 13px;
+    }
+
+    .DLearingBox1 {
+        margin-top: 0;
+        max-width: 200px;
+        min-height: 200px;
+    }
+
+    .DLearingBox2 {
+        margin-top: 0;
+        max-width: 200px;
+        min-height: 200px;
+    }
+
+    .DLearingBox3 {
+        margin-top: 0;
+        max-width: 200px;
+        min-height: 200px;
+    }
+
+    .DLearingBox4 {
+        margin-top: 0;
+        max-width: 200px;
+        min-height: 200px;
+    }
+
+    .DLMainBox {
+        margin-bottom: 60px;
+    }
+
+    .DLBoxtext h6 {
+        font-size: 30px;
+    }
+
+    .DLBoxtext p {
+        font-size: 15px;
+    }
+
+
+
+    .DLearing-Slider-Img .slick-dots {
+        bottom: -15px;
+    }
+
+    .DLearing-Slider-Img .slick-dots li button:before {
+        font-size: 13px;
+    }
+
+    .DLearing-Slider-Img:after {
+        display: none;
+    }
+
+    .a-one {
+        animation: none;
+    }
+
+    .b-one {
+        animation: none;
+    }
+
+    .DLearingBox2 {
+        margin-top: 0;
+    }
+
+    /* Course instrucation */
+    .CInstrucation::after {
+        display: none;
+    }
+
+    .CInstrucation-title h1 {
+        font-size: 16px;
+    }
+
+    .CInstrucation-title h2 {
+        font-size: 13px;
+    }
+
+    /* Self Development */
+
+    .SelfDevelopment-Content {
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .SelfDevelopment-Content h5 {
+        font-size: 13px;
+        margin-bottom: 0px;
+        line-height: 1;
+    }
+
+    .SelfDevelopment-Content h6 {
+        font-size: 23px;
+        margin-bottom: 0px;
+    }
+
+    .SelfDevelopment-Content p {
+        font-size: 11px;
+    }
+
+    /* Certificate */
+    .CertificationMain::after {
+        display: none;
+    }
+
+    .Certification {
+        max-width: 100%
+    }
+
+    .Certification h6 {
+        font-size: 14px;
+    }
+
+    .Certification h2 {
+        font-size: 28px;
+    }
+
+    .Certification p {
+        font-size: 14px;
+    }
+
+    .CertificationMain::after {
+        left: -26px;
+        top: -45px;
+    }
+
+    .Certification p::before {
+        right: 85px;
+    }
+
+    .CertificationMain::before {
+        right: 9%;
+        bottom: 43%;
+    }
+
+    /* video */
+    .Playbtn {
+        width: 20px;
+        height: 18px;
+    }
+
+    .Playbtn:before {
+        width: 35px;
+        height: 35px;
+    }
+
+    .Playbtn i {
+        border-left: 16px solid #fff;
+        border-top: 8px solid transparent;
+        border-bottom: 8px solid transparent;
+    }
+
+    .Playbtn:after {
+        width: 40px;
+        height: 40px;
+    }
+
+    /* our publication */
+    .OurPublication::before {
+        display: none;
+    }
+
+    .OurPublication-body {
+        padding: 20px;
+    }
+
+    .OurPublication-body .card-title {
+        margin-bottom: 10px;
+    }
+
+    .OurPublication-body h6 {
+        font-size: 16px;
+    }
+
+    .OurPublication-text h4 {
+        font-size: 18px;
+    }
+
+    .OurPublication-text p {
+        Font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    .OurPublicationText p {
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+
+    .OurPublicationSlider .slick-prev {
+        width: 28px;
+        height: 28px;
+    }
+
+    .OurPublicationSlider .slick-prev:before {
+        font-size: 20px;
+    }
+
+    .OurPublicationSlider .slick-next {
+        width: 28px;
+        height: 28px;
+    }
+
+    .OurPublicationSlider .slick-next:before {
+        font-size: 20px;
+    }
+
+    /* NewsLater */
+    .NewsLetterTitle h6 {
+        font-size: 15px;
+    }
+
+    .NewsLetterTitle h2 {
+        font-size: 28px;
+    }
+
+    .NewsLetterTitle p {
+        font-size: 14px;
+    }
+
+    .NewsEmail input::placeholder {
+        font-size: 12px;
+    }
+
+    .NewsEmail input {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+    }
+
+    .NewsLetterTitle::before {
+        display: none;
+    }
+
+    .NewsLetter::before {
+        display: none;
+    }
+
+    .NewsLetter::after {
+        display: none;
+    }
+
+    .NewsLetterTitle {
+        max-width: 81%;
+    }
+}
+
+@media (min-width: 422px) and (max-width: 575px) {
+    .Banner-Content {
+        right: 1%;
+        top: 8%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 575px) {
+
+    /* banner */
+    .HomeBannerBox {
+        position: unset;
+        margin-top: 10px;
+    }
+
+    .HomeBannerBox::before {
+        display: none;
+    }
+
+    .Banner-Content {
+        right: 1%;
+        top: 3%;
+    }
+
+    .Banner-Content h5 {
+        font-size: 13px;
+    }
+
+    .Banner-Content h6 {
+        font-size: 12px;
+    }
+
+    .Banner-Content p {
+        display: none;
+        /* font-size: 17px;
+        margin-right: 0px; */
+    }
+
+    .HomeBanner-Card {
+        margin: 0 auto;
+        margin-top: 12px;
+    }
+
+    .HomeBanner-Card .card-body {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .HomeBanner-Card .card-title {
+        margin-bottom: 15px;
+    }
+
+    .HomeBanner-Card h4 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .HomeBanner-Card h5 {
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+
+    .HomeBanner-Card h6 {
+        font-size: 15px;
+    }
+
+    /* online - learing */
+
+    .Online-learnig-Content h6 {
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+
+    .Online-learnig-Content h2 {
+        font-size: 22px;
+        margin-bottom: 5px;
+    }
+
+    .Online-learnig-Content p {
+        font-size: 12px;
+        margin-bottom: 10px;
+        line-height: 20px;
+    }
+
+    /* our Popular course */
+
+    .OurPCourses::after {
+        display: none;
+    }
+
+    .OpCourse-Card {
+        margin-bottom: 30px;
+    }
+
+    .OpCourses-body {
+        padding: 15px;
+    }
+
+    .OpCourse-content p {
+        font-size: 13px;
+    }
+
+    .OpCourses-body .card-title i {
+        font-size: 15px;
+    }
+
+    .OpCourses-body h6 {
+        font-size: 13px;
+        margin-left: 5px;
+    }
+
+    .OpCourses-body .card-title {
+        margin-bottom: 10px;
+    }
+
+    .OpCourses-text h4 {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    .OpCourseText1 p {
+        font-size: 13px;
+        margin-left: 5px;
+    }
+
+    .OpCourseText1 i {
+        font-size: 15px;
+    }
+
+    .OpCourseText2 i {
+        font-size: 15px;
+    }
+
+    .OpCourseText2 p {
+        font-size: 13px;
+        margin-left: 5px;
+    }
+
+    .OpCourse-content {
+        max-width: 100%;
+    }
+
+    .OpPricebox {
+        width: 60px;
+        height: 38px;
+    }
+
+    .OpPricebox h1 {
+        font-size: 20px;
+    }
+
+    .OpCourseSlider .slick-prev {
+        width: 28px;
+        height: 28px;
+        left: 20px;
+    }
+
+    .OpCourseSlider .slick-prev:before {
+        font-size: 20px;
+    }
+
+    .OpCourseSlider .slick-next {
+        width: 28px;
+        height: 28px;
+        right: 20px;
+    }
+
+    .OpCourseSlider .slick-next:before {
+        font-size: 20px;
+    }
+
+    /* Distance Learing  */
+    .DLearing {
+        padding-top: 0;
+    }
+
+    .DistanceLearing {
+        margin-bottom: 30px;
+    }
+
+    .Distance-Img {
+        background-image: none;
+    }
+
+    .DLearing-left-Content h6 {
+        font-size: 12px;
+    }
+
+    .DLearing-left-Content h1 {
+        font-size: 21px;
+        line-height: 1.2;
+    }
+
+    .DLearing-user-box {
+        margin-bottom: 10px;
+    }
+
+    .Dlearing-user h6 {
+        font-size: 15px;
+        margin: 0 auto;
+    }
+
+    .Dlearing-user p {
+        font-size: 12px;
+    }
+
+    .DLearing-left-Content p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .DLearing-Slider-Img {
+        padding: 20px;
+        margin-top: 30px;
+    }
+
+    .DLSlider-Content {
+        font-size: 12px;
+    }
+
+    .DLearingBox1 {
+        margin-top: 0;
+        min-height: 140px;
+        max-width: 140px;
+    }
+
+    .DLearingBox2 {
+        margin-top: 0;
+        min-height: 140px;
+        max-width: 140px;
+    }
+
+    .DLearingBox3 {
+        margin-top: 0;
+        min-height: 140px;
+        max-width: 140px;
+    }
+
+    .DLearingBox4 {
+        margin-top: 0;
+        min-height: 140px;
+        max-width: 140px;
+    }
+
+    .DLMainBox {
+        margin-bottom: 30px;
+    }
+
+
+
+
+
+    .DLBoxtext h6 {
+        font-size: 19px;
+    }
+
+    .DLBoxtext p {
+        font-size: 10px;
+    }
+
+    .DLearing-Slider-Img .slick-dots li {
+        width: 15px;
+        height: 15px;
+    }
+
+    .DLearing-Slider-Img .slick-dots {
+        bottom: -15px;
+    }
+
+    .DLearing-Slider-Img .slick-dots li button:before {
+        font-size: 10px;
+    }
+
+    .DLearing-Slider-Img:after {
+        display: none;
+    }
+
+    .a-one {
+        animation: none;
+    }
+
+    .b-one {
+        animation: none;
+    }
+
+    .DLearingBox2 {
+        margin-top: 0;
+    }
+
+
+
+    /* Course instrucation */
+    .CInstrucation .last:last-child {
+        margin-bottom: 0;
+    }
+    
+
+    .CInstrucation .CInstrucation-box {
+        margin-bottom: 12px;
+    }
+    .CInstrucation .CInstrucation-box:last-child{
+        margin-bottom: 0;
+    }
+
+    .CInstrucation::after {
+        display: none;
+    }
+
+    .CInstrucation-title h1 {
+        font-size: 17px;
+    }
+
+    .CInstrucation-title h2 {
+        font-size: 12px;
+    }
+
+    .CInstrucation-social-icon li a {
+        width: 25px;
+        font-size: 17px;
+    }
+
+    /* Self Development */
+
+    .SelfDevelopment {
+        background-color: transparent;
+        margin-top: 0px;
+    }
+
+    .SelfDUserimg {
+        text-align: center;
+    }
+
+    .SelfDevelopment-Content {
+        margin: 0 auto;
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+
+    .SelfDevelopment-Content h5 {
+        font-size: 12px;
+        margin-bottom: 0px;
+        line-height: 1;
+    }
+
+    .SelfDevelopment-Content h6 {
+        font-size: 22px;
+        margin-bottom: 0px;
+    }
+
+    .SelfDevelopment-Content p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    /* video */
+    .Playbtn {
+        width: 20px;
+        height: 18px;
+    }
+
+    .Playbtn:before {
+        width: 35px;
+        height: 35px;
+    }
+
+    .Playbtn i {
+        border-left: 16px solid #fff;
+        border-top: 8px solid transparent;
+        border-bottom: 8px solid transparent;
+    }
+
+    .Playbtn:after {
+        width: 40px;
+        height: 40px;
+    }
+
+    /* Certificate */
+    .CertificationMain {
+        margin-top: 0;
+    }
+
+    .CertificationMain::after {
+        display: none;
+    }
+
+    .Certification {
+        max-width: 100%
+    }
+
+    .Certification h6 {
+        font-size: 12px;
+    }
+
+    .Certification h2 {
+        font-size: 20px;
+        line-height: 1.2;
+    }
+
+    .Certification p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .CertificationMain::after {
+        left: -26px;
+        top: -45px;
+    }
+
+    .Certification p::before {
+        display: none;
+    }
+
+    .CertificationMain::before {
+        display: none;
+    }
+
+    /* video */
+
+    .modal-body iframe{
+        width: 300px;
+        height: 200px;
+        margin: 0 auto;
+    }
+
+    /* our publication */
+    .OurPublication::before {
+        display: none;
+    }
+
+    .OurPublication-body {
+        padding: 12px;
+    }
+
+    .OurPublication-body .card-title {
+        margin-bottom: 5px;
+    }
+
+    .OurPublication-body h6 {
+        font-size: 14px;
+    }
+
+    .OurPublication-text h4 {
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+
+    .OurPublication-text p {
+        Font-size: 12px;
+        margin-bottom: 5px;
+    }
+
+    .OurPublication-body i {
+        font-size: 13px;
+    }
+
+    .OurPublicationText p {
+        font-size: 12px;
+        margin-bottom: 0;
+        margin-left: 5px;
+    }
+
+    .OurPublicationSlider .slick-prev {
+        width: 28px;
+        height: 28px;
+        left: 25px;
+
+    }
+
+    .OurPublicationSlider .slick-prev:before {
+        font-size: 20px;
+    }
+
+    .OurPublicationSlider .slick-next {
+        width: 28px;
+        height: 28px;
+        right: 25px;
+    }
+
+    .OurPublicationSlider .slick-next:before {
+        font-size: 20px;
+    }
+
+    /* NewsLater */
+    .NewsLetterTitle {
+        max-width: 100%;
+    }
+
+    .NewsLetterTitle h6 {
+        font-size: 12px;
+    }
+
+    .NewsLetterTitle h2 {
+        font-size: 21px;
+        line-height: 20px;
+    }
+
+    .NewsLetterTitle p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .NewsEmail input::placeholder {
+        font-size: 12px;
+    }
+
+    .NewsEmail input {
+        padding-left: 10px;
+        padding-top: 0;
+        padding-bottom: 3px;
+        padding-left: 8px;
+    }
+
+    .NewsLetterTitle::before {
+        display: none;
+    }
+
+    .NewsLetter::before {
+        display: none;
+    }
+
+    .NewsLetter::after {
+        display: none;
+    }
+}

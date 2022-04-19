@@ -1,0 +1,128 @@
+.TermsCImg{
+    text-align: center;
+    margin-bottom: 80px;
+}
+.TermsContent{
+    margin-bottom: 50px;
+}
+
+.TermsContent h3{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    position: relative;
+}
+blockquote{
+    background-color: #fafafa;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-bottom: 0;
+}
+blockquote p{
+    margin: 0 auto !important;
+    opacity: 1.9;
+}
+.TermsContent p{
+    color: #707070;
+    font-size: 17px;
+    font-weight: 600;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    margin-left: 30px;
+}
+.TermsContent li{
+    color: #707070;
+    font-size: 17px;
+    font-weight: 600;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+/* Responsive */
+
+@media (min-width: 1200px) and (max-width: 1349px) {
+    .TermsCImg {
+        margin-bottom: 40px;
+    }
+
+}   
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    .TermsCImg {
+        margin-bottom: 40px;
+    }
+    .TermsContent h3 {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+    .TermsContent p {
+        font-size: 16px;
+    }
+    .TermsContent li {
+        font-size: 16px;
+    }
+    .TermsContent {
+        margin-bottom: 40px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .TermsCImg {
+        margin-bottom: 40px;
+    }
+    .TermsContent h3 {
+        font-size: 21px;
+        margin-bottom: 15px;
+    }
+    .TermsContent p {
+        font-size: 15px;
+    }
+    .TermsContent li {
+        font-size: 15px;
+    }
+    .TermsContent {
+        margin-bottom: 40px;
+    }
+
+}
+@media (min-width: 576px) and (max-width: 767px) {
+    .TermsCImg {
+        margin-bottom: 35px;
+    }
+    .TermsContent h3 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .TermsContent p {
+        font-size: 15px;
+    }
+    .TermsContent li {
+        font-size: 15px;
+    }
+
+    .TermsContent {
+        margin-bottom: 35px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 575px) {
+    .TermsCImg {
+        margin-bottom: 25px;
+    }
+    .TermsContent h3 {
+        font-size: 18px;
+        margin-bottom: 12px;
+    }
+    .TermsContent p {
+        font-size: 14px;
+        margin-left: 0;
+    }
+    .TermsContent li {
+        font-size: 14px;
+    }
+    .TermsContent {
+        margin-bottom: 25px;
+    }
+}

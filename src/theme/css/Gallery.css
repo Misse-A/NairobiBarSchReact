@@ -1,0 +1,69 @@
+.Gallery-img img{
+    border-radius: 5px;
+}
+.Gallery-img {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.Gallery-img img{
+	transition: transform 0.5s ease;
+}
+.Gallery-img :hover .Gallery-hover {
+	opacity: 1;
+	visibility: visible;
+	z-index: 1;
+	transform: scale(1);
+	-webkit-transform: scale(0.9,0.9);
+  }
+.Gallery-icon{
+	position: relative;
+	margin-bottom: 0;
+	overflow: hidden;
+	margin-left:10px;
+	margin-right:10px;
+  }
+  
+  .Gallery-hover{
+	opacity: 0;
+	visibility: hidden;
+	z-index: 0;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	transition: 0.4s ease;
+	transform: scale(1);
+	-webkit-transform: scale(0.8);
+	background-color: rgba(255, 255, 255, 0.4);
+	padding: 10px;
+	border-radius: 0;
+  }
+  
+  .Gallery-icon-box{
+	position: absolute;
+	left: 40px;
+	right: 0;
+	text-align: center;
+	top: 45%;
+  }
+  
+  .Gallery-hover .Gicon {
+	border-radius: 0;
+	transform: translate(-50%, -50%);
+	padding: 12px 12px;
+	display: inline-block;
+	line-height: 0px;
+	background-color: #FE4A55;
+	border-radius: 5px;
+	color: #fff;
+	float: none;
+  }
+  .Gallery-hover .Gicon a{
+	  color: white;
+  }
+  .Gallery-hover .Gicon:hover {
+	background-color: #000;
+	color: #fff;
+  }
+  

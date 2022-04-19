@@ -1,0 +1,126 @@
+.LoginRegister{
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+.LoginReg-box{
+    margin-top: 60px;
+    max-width: 600px;
+    height: 100%;
+    margin-right: auto;
+    margin-bottom: 60px;
+    margin-left: auto;
+    padding: 40px;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,.1),0 2px 4px -1px rgba(0,0,0,.06)!important;
+}
+.LoginReg-box{
+    line-height: 1.9;
+}
+.LoginReg-box h1{
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 1.9;
+}
+.Register-text{
+    display: inline-block;
+}
+.Loginlink{
+    display: inline-block;
+}
+.Lostpwd{
+    margin-top: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #707070;
+    font-weight: 500;
+}
+.Lostpwd:hover{
+    color: #FE4A55;
+    transition: 0.5s ease;
+}
+.Login-Reg-form .btn{
+    width: 100%;
+} 
+.Login-Reg-form a{
+    text-decoration: none;
+}
+.login a{
+    text-decoration: none;
+    color: white;
+    
+}
+.Loginlink a{
+    cursor: pointer;
+    color: #707070;
+    font-size: 16px;
+    font-weight: 500;
+}
+.Loginlink a:hover {
+    color: #FE4A55;
+}
+
+.Login-Reg-form .form-control:focus{
+    box-shadow: none;
+    border-color:#FE4A55;
+}
+.Login-Reg-form input{
+    padding: 12px 10px;
+}
+.form-check input{
+    padding: 0;
+}
+.form-check {
+    line-height:normal;
+}
+.Login-Reg-form .form-check-input:focus{
+    border-color: #ced4da;
+    box-shadow: none;
+}
+
+/* Responisve */
+
+@media (min-width: 320px) and (max-width: 575px) {
+    .LoginRegister{
+        margin: 0px;
+    }
+    .LoginReg-box {
+        padding: 15px;
+        line-height: 1.2;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .LoginReg-box h1 {
+        font-size: 22px;
+        line-height: 1.2;
+    }
+    .Login-Reg-form .form-label{
+        font-size: 12px;
+    }
+    .Login-Reg-form .form-control {
+        padding: 0px 10px;
+    }
+    .Login-Reg-form input::placeholder{
+        font-size: 12px;
+    }
+    .Login-Reg-form .form-check-label{
+        font-size: 12px;
+    }
+    .Login-Reg-form .form-check .form-check-input{
+        margin-right: 5px;
+        width: 10px;
+        height: 10px;
+        border-radius: 2px;
+    }
+    .Loginlink a {
+        font-size: 11px;
+    }
+    .Login-Reg-form .form-text{
+        font-size: 11px;
+    }
+    .Lostpwd{
+        margin-top: 10px;
+        margin-bottom: 0;
+        font-size: 11px;
+    }
+}

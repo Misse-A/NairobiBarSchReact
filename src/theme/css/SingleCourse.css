@@ -1,0 +1,774 @@
+.course-row {
+    align-items: center;
+}
+
+.Single-Course-tabs {
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.Single-Course-tabs ul {
+    display: flex;
+}
+
+.Stabs {
+    padding: 20px;
+    text-align: center;
+    background: transparent;
+    cursor: pointer;
+    position: relative;
+    outline: none;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.Stab-menu li {
+    margin-left: 0px;
+    margin-right: 10px;
+}
+
+
+.active-Stabs {
+    background: transparent;
+    border-bottom: 1px solid transparent;
+    color: #FE4A55;
+    position: relative;
+}
+
+.active-Stabs::before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(100% + 2px);
+    height: 2px;
+    background: #FE4A55;
+    border-radius: 50px;
+}
+
+button {
+    border: none;
+}
+
+.Scontent-tabs {
+    flex-grow: 1;
+}
+
+.Scontent {
+    background: white;
+
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.Sactive-content {
+    display: block;
+
+}
+
+.Scontent .Saccordion-item {
+    box-shadow: 2px 8px 20px 0 rgb(25 42 70 / 13%);
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+.Scontent .Saccordion-button {
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.Scontent .Saccordion-body {
+    font-size: 16px;
+    color: #707070;
+    font-weight: 500;
+}
+
+/* overView */
+
+.Overview h3 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.Overview p {
+    font-weight: 500;
+    color: #707070;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+/* Curriculum */
+.Curriculum button {
+    font-size: 20px;
+    color: #000;
+    font-weight: 700;
+}
+
+.Curriculum button:hover {
+    color: #FE4A55;
+    transition: 0.5s ease;
+}
+
+.Curriculum .accordion-button:not(.collapsed) {
+    color: #000;
+    background-color: transparent;
+}
+
+.Curriculum .accordion-button:focus {
+    border-color: transparent;
+    box-shadow: none;
+}
+
+.Curriculum .accordion-body {
+    color: #707070;
+    font-weight: 500;
+}
+
+/* Insturctor */
+
+.Instructor {
+    display: flex;
+}
+
+.Instructor-person {
+    display: inline-block;
+}
+
+.Instructor-person i {
+    font-size: 60px;
+    color: #707070;
+    opacity: 0.6;
+}
+
+.Instructor-text {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.Instructor-text span {
+    font-size: 22px;
+    color: black;
+    font-weight: 500;
+}
+
+.Instructor-text p {
+    font-size: 18px;
+    color: #707070;
+    font-weight: 500;
+}
+
+/* review */
+.Review-rate {
+    align-items: center;
+    display: flex;
+}
+
+.Review-rate-summary h2 {
+    font-size: 90px;
+    text-align: center;
+    color: #333;
+    line-height: 1;
+    font-weight: 700;
+}
+
+.Review-star {
+
+    display: flex;
+    justify-content: center;
+    color: #ffb60a;
+    margin-bottom: 10px;
+}
+
+.Review-star div {
+    position: relative;
+    line-height: 1;
+}
+
+.Review-rate div i {
+    font-size: 20px;
+    color: #ffb60a;
+}
+
+.Review-text {
+    text-align: center;
+    color: #777;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.Review-text span {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.Review-detail {
+    margin-left: 50px;
+    flex: 1;
+}
+
+.Review-detail-row {
+    display: flex;
+    margin: 0 0 10px;
+}
+
+.Review-detail-row .Review-detail-row-star {
+    flex: 0 0 45px;
+    text-align: right;
+    color: #ccc;
+}
+
+.Review-detail-row-value {
+    flex: 1;
+    position: relative;
+    margin: 0 50px 0 10px;
+}
+
+.Review-detail-row-value .Review-gray {
+    width: 100%;
+    background: #eee;
+    position: relative;
+}
+
+.Review-detail-row-value .Review-rating {
+    height: 15px;
+    background: #ffb608;
+    position: relative;
+    top: 50%;
+    margin-top: -7px;
+    border-radius: 3px;
+}
+
+.Review-rating-count {
+    color: #333;
+    display: inline-block;
+    position: absolute;
+    right: -50px;
+    text-align: right;
+    line-height: 1;
+    font-size: 16px;
+}
+
+.Course-review h3 {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.Review-box {
+    display: inline-block;
+    border: 1px solid #c9c9c9;
+
+    padding: 24px;
+}
+
+.Review-author {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+
+}
+
+.Course-review-star {
+    color: #ffb608;
+    font-size: 21px;
+}
+
+
+
+.Review-box .Review-icon-person {
+    color: #707070;
+    opacity: 0.5;
+    font-size: 50px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.Review-author h6 {
+    margin: 0 auto;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.Review-content p {
+    display: inline-block;
+    margin: 0 auto;
+    margin-left: 62px;
+    vertical-align: top;
+}
+
+
+.Course-m-like h2 {
+    font-weight: 800;
+    margin-bottom: 48px;
+    text-align: center;
+    font-size: 45px;
+}
+
+.Course-m-like .Course-Card {
+    cursor: pointer;
+}
+
+@media (min-width: 1200px) and (max-width: 1349px) {
+
+    /* review box */
+    .Review-box {
+        padding: 15px;
+    }
+
+    .Course-review h3 {
+        font-size: 30px;
+    }
+
+    .Review-author h6 {
+        font-size: 19px;
+    }
+
+    .Course-review-star {
+        font-size: 19px;
+    }
+
+    .Review-content p {
+        font-size: 14px;
+    }
+
+    /* overview tab */
+    .Overview h3 {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+
+    .Overview p {
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+
+    /* curriculum tab*/
+    .Curriculum .accordion-header button {
+        font-size: 18px;
+    }
+
+    .Curriculum .accordion-body {
+        font-size: 15px;
+    }
+
+    /* instructor tab*/
+    .Instructor-person i {
+        font-size: 50px;
+    }
+
+    .Instructor-text span {
+        font-size: 20px;
+    }
+
+    .Instructor-text p {
+        font-size: 17px;
+    }
+
+    /* review tab */
+    .Review-rate-summary h2 {
+        font-size: 70px
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    /* tab */
+    .Stabs {
+        padding: 17px;
+    }
+
+    .Single-Course-tabs {
+        margin-bottom: 20px;
+    }
+
+    /* review box */
+    .Review-box {
+        padding: 15px;
+    }
+
+    .Course-review h3 {
+        font-size: 30px;
+    }
+
+    .Review-author h6 {
+        font-size: 19px;
+    }
+
+    .Course-review-star {
+        font-size: 19px;
+    }
+
+    .Review-content p {
+        font-size: 13px;
+    }
+
+    /* overview tab */
+
+    .Overview h3 {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    .Overview p {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+
+    /* curriculum tab*/
+    .Curriculum .accordion-header button {
+        font-size: 16px;
+    }
+
+    .Curriculum .accordion-body {
+        font-size: 14px;
+    }
+
+    /* instructor tab*/
+    .Instructor-person i {
+        font-size: 50px;
+    }
+
+    .Instructor-text span {
+        font-size: 19px;
+    }
+
+    .Instructor-text p {
+        font-size: 16px;
+    }
+
+    .Instructor-text {
+        margin-left: 10px;
+    }
+
+    /* review tab */
+    .Review-rate-summary h2 {
+        font-size: 60px;
+    }
+
+    .Review-rate div i {
+        font-size: 18px;
+    }
+
+    /* course */
+
+
+    .Course-m-like h2 {
+        font-size: 35px;
+        margin-bottom: 35px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /* tab */
+    .Stabs {
+        padding: 12px;
+    }
+
+    .Single-Course-tabs {
+        margin-bottom: 20px;
+    }
+
+    /* review box */
+    .Review-box {
+        padding: 15px;
+    }
+
+    .Course-review h3 {
+        font-size: 30px;
+    }
+
+    .Review-author h6 {
+        font-size: 19px;
+    }
+
+    .Course-review-star {
+        font-size: 19px;
+    }
+
+    .Review-content p {
+        font-size: 13px;
+    }
+
+    /* overview tab */
+    .Overview h3 {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    .Overview p {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+
+    /* curriculum tab*/
+    .Curriculum .accordion-header button {
+        font-size: 16px;
+    }
+
+    .Curriculum .accordion-body {
+        font-size: 14px;
+    }
+
+    /* instructor tab*/
+    .Instructor-person i {
+        font-size: 50px;
+    }
+
+    .Instructor-text span {
+        font-size: 19px;
+    }
+
+    .Instructor-text p {
+        font-size: 16px;
+    }
+
+    .Instructor-text {
+        margin-left: 10px;
+    }
+
+    /* review tab */
+    .Review-rate-summary h2 {
+        font-size: 60px;
+    }
+
+    .Review-rate div i {
+        font-size: 18px;
+    }
+
+    /* course */
+
+
+    .Course-m-like h2 {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    /* review box */
+    .Review-box {
+        padding: 15px;
+    }
+
+    .Course-review h3 {
+        font-size: 25px;
+    }
+
+    .Review-box .Review-icon-person {
+        font-size: 40px;
+    }
+
+    .Review-author {
+        margin-left: 10px;
+    }
+
+    .Review-author h6 {
+        font-size: 18px;
+    }
+
+    .Course-review-star {
+        font-size: 18px;
+    }
+
+    .Review-content p {
+        font-size: 13px;
+        margin-left: 56px;
+    }
+
+    /* tab */
+    .Stabs {
+        font-size: 18px;
+    }
+
+    /* overview tab */
+    .Single-Course-tabs {
+        margin-bottom: 20px;
+    }
+
+    .Overview h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .Overview p {
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+
+    /* curriculum tab*/
+    .Curriculum .accordion-header button {
+        font-size: 15px;
+    }
+
+    .Curriculum .accordion-body {
+        font-size: 13px;
+    }
+
+    /* instructor tab*/
+    .Instructor-person i {
+        font-size: 40px;
+    }
+
+    .Instructor-text span {
+        font-size: 18px;
+    }
+
+    .Instructor-text p {
+        font-size: 15px;
+    }
+
+    .Instructor-text {
+        margin-left: 10px;
+    }
+
+    /* review tab */
+    .Review-rate-summary h2 {
+        font-size: 50px;
+    }
+
+    .Review-rate div i {
+        font-size: 17px;
+    }
+
+    .Review-detail-row-value .Review-rating {
+        height: 12px;
+        margin-top: -5px;
+    }
+
+    /* course */
+
+
+    .Course-m-like h2 {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 575px) {
+
+    /* review box */
+    .Review-box {
+        padding: 15px;
+    }
+
+    .Course-review h3 {
+        font-size: 25px;
+    }
+
+    .Review-box .Review-icon-person {
+        font-size: 40px;
+    }
+
+    .Review-author {
+        margin-left: 10px;
+    }
+
+    .Review-author h6 {
+        font-size: 18px;
+    }
+
+    .Course-review-star {
+        font-size: 18px;
+    }
+
+    .Review-content p {
+        font-size: 13px;
+        margin-left: 56px;
+    }
+
+    /* tab */
+    .Stabs {
+        font-size: 15px;
+    }
+
+    .Single-Course-tabs ul {
+        justify-content: center;
+    }
+
+    .Single-Course-tabs {
+        margin-bottom: 10px;
+    }
+
+    /* overview tab */
+
+    .Overview h3 {
+        font-size: 17px;
+        margin-bottom: 10px;
+    }
+
+    .Overview p {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    /* curriculum tab*/
+    .Curriculum .accordion-header button {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .Curriculum .accordion-body {
+        font-size: 12px;
+    }
+
+    .accordion-button::after {
+        width: 12px;
+        height: 12px;
+    }
+
+    /* instructor tab*/
+    .Instructor-person i {
+        font-size: 30px;
+    }
+
+    .Instructor-text span {
+        font-size: 16px;
+    }
+
+    .Instructor-text p {
+        font-size: 13px;
+    }
+
+    .Instructor-text {
+        margin-left: 10px;
+    }
+
+    /* review tab */
+    .Review-rate-summary h2 {
+        font-size: 40px;
+    }
+
+    .Review-rate div i {
+        font-size: 14px;
+    }
+
+    .Review-text span {
+        font-size: 17px;
+    }
+
+    .Review-detail {
+        margin-left: 0px;
+    }
+
+    .Review-detail-row-value .Review-rating {
+        height: 12px;
+        margin-top: -5px;
+    }
+
+    /* course */
+
+
+    .Course-m-like h2 {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+}

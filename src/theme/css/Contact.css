@@ -1,0 +1,405 @@
+
+.Contact-Section {
+    padding-top: 70px;
+}
+.Contact-title{
+    margin-bottom: 45px;
+}
+
+.Contact-title h6 {
+    color: #FE4A55;
+    font-size: 17px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 1.4;
+}
+
+.Contact-title h2 {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+.Contact-title p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #707070;
+    line-height: 1.9;
+
+}
+
+.Contact-Social-box {
+    position: relative;
+}
+.Contact-Social hr{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.Contact-icon {
+    background-color: #f5f5f5;
+    padding: 15px;
+   
+    text-align: center;
+    margin-right: 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    vertical-align: middle;
+}
+.Contact-icon i{
+    font-size: 32px;
+}
+
+.Contact-Social-box:hover .Contact-icon {
+
+    background-color: #FE4A55;
+    color: white;
+    transition: 0.5s ease;
+}
+.Conact-icon-detail {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.Conact-icon-detail h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 auto;
+}
+
+.Contact-Social-text {
+    font-size: 15px;
+    color: #707070;
+    font-weight: 500;
+}
+
+.Contact-no-mail {
+    color: #FE4A55;
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.form-box{
+    background-color: #ffe2e321;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 5px;
+
+}
+.Contact-form {
+    line-height: 2.9;
+}
+.Contact-form h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+.Contact-form p{
+    font-size: 16px;
+    color: red;
+    margin-bottom: 50px;
+    font-weight: 600;
+}
+.Form-group {
+    margin-bottom: 50px;
+}
+
+
+.Form-group input, textarea {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #707070;
+    border-radius: 2px;
+    background-color: transparent;
+}
+.Contact-textarea{
+    margin-bottom: 0;
+}
+.Form-group input::placeholder{
+    font-size: 18px;
+}
+.Form-group textarea::placeholder{
+    font-size: 18px;
+}
+.Conatct-checkbox span input{
+    display: inline-block;
+    margin-right: 10px;
+}
+.Conatct-checkbox span p{
+    display: inline-block;
+    color: #707070;
+}
+.Conatct-checkbox span p a{
+    color: #707070;
+}
+.Conatct-checkbox span p a:hover{
+    color: #FE4A55;
+}
+
+.Map iframe{
+    width: 100%;
+}
+.Form-group input,textarea{
+  outline: none;
+
+}
+
+
+/* Responsive */
+
+@media (min-width: 1200px) and (max-width: 1349px) {
+    .Contact-title h2 {
+        font-size: 35px;
+        line-height: 1.4;
+    }
+    .Contact-title p {
+        font-size: 14px;
+        line-height: 1.8;
+    }
+    .Contact-title h6{
+        font-size: 15px;
+    }
+    .Contact-icon i{
+        font-size: 30px;
+    }
+    .Contact-form h2 {
+        font-size: 35px;
+    }
+    .Contact-form p {
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+    .Form-group input::placeholder{
+        font-size: 16px;
+    }
+    .Form-group textarea::placeholder{
+        font-size: 16px;
+    }
+    
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .Contact-title h6 {
+        font-size: 15px;
+    }
+    .Contact-title h2 {
+        font-size: 30px;
+    }
+    .Contact-title p {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+    .Contact-icon i {
+        font-size: 30px;
+    }
+    .Contact-form h2 {
+        font-size: 30px;
+    }
+    .Contact-form p {
+        font-size: 15px;
+        margin-bottom: 20px;
+        line-height: 1.9;
+    }
+    .Form-group {
+        margin-bottom: 40px;
+    }
+    .Map iframe {
+        height: 300px;
+    }
+    .Form-group input::placeholder{
+        font-size: 16px;
+    }
+    .Form-group textarea::placeholder{
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .Contact-title {
+        margin-bottom: 40px;
+    }
+    .Contact-title h6 {
+        font-size: 16px;
+        line-height: 1.3;
+    }
+    .Contact-title h2 {
+        font-size: 40px;
+        line-height: 1.3;
+    } 
+    .Contact-title p {
+        font-size: 17px;
+        line-height: 1.6;
+    }   
+    .Contact-icon i {
+        font-size: 25px;
+    }
+    .Conact-icon-detail h3 {
+        font-size: 18px;
+    }
+    .Contact-Social hr {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .form-box {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        padding-left: 25px;
+        padding-right: 25px;
+        border-radius: 5px;
+    }
+    .Contact-form h2 {
+        font-size: 29px;
+    }
+    .Contact-form p {
+        font-size: 15px;
+        margin-bottom: 25px;
+        line-height: 1.9;
+    }
+    .Form-group {
+        margin-bottom: 25px;
+    }
+    .Map iframe {
+        height: 300px;
+    }
+    .Form-group input::placeholder{
+        font-size: 16px;
+    }
+    .Form-group textarea::placeholder{
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .contact{
+        margin-bottom: 60px
+    }
+    .Contact-title {
+        margin-bottom: 40px;
+    }
+    .Contact-title h6 {
+        font-size: 13px;
+        line-height: 1.3;
+    }
+    .Contact-title h2 {
+        font-size: 28px;
+        line-height: 1.3;
+    } 
+    .Contact-title p {
+        font-size: 14px;
+        line-height: 1.6;
+    }   
+    .Contact-icon {
+        padding: 10px;
+    }
+    
+    .Contact-icon i {
+        font-size: 25px;
+    }
+    .Conact-icon-detail h3 {
+        font-size: 18px;
+    }
+    .Contact-Social hr {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .form-box {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        padding-left: 25px;
+        padding-right: 25px;
+        border-radius: 5px;
+    }
+    .Contact-form h2 {
+        font-size: 28px;
+    }
+    .Contact-form p {
+        font-size: 15px;
+        margin-bottom: 25px;
+        line-height: 1.9;
+    }
+    .Form-group {
+        margin-bottom: 25px;
+    }
+    .Map iframe {
+        height: 250px;
+    }
+    .Form-group input::placeholder{
+        font-size: 16px;
+    }
+    .Form-group textarea::placeholder{
+        font-size: 16px;
+    }
+}
+@media (min-width: 320px) and (max-width:575px) {
+    .contact{
+        margin-bottom: 60px
+    }
+    .Contact-title {
+        margin-bottom: 40px;
+    }
+    .Contact-title h6 {
+        font-size: 12px;
+        line-height: 1.3;
+    }
+    .Contact-title h2 {
+        font-size: 20px;
+        line-height: 1.3;
+    } 
+    .Contact-title p {
+        font-size: 12px;
+        line-height: 1.6;
+    }   
+    .Contact-icon {
+        padding: 9px;
+        margin-right: 11px;
+        line-height: 1;
+    }
+    .Contact-icon i {
+        font-size: 25px;
+    }
+    .Conact-icon-detail h3 {
+        font-size: 17px;
+    }
+    .Contact-Social-text {
+        font-size: 14px;
+    }
+    .Contact-no-mail {
+        font-size: 14px;
+    }
+    .Contact-Social hr {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .form-box {
+        padding-top: 20px;
+        padding-bottom:20px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .Contact-form h2 {
+        font-size: 20px;
+    }
+    .Contact-form p {
+        font-size: 12px;
+        margin-bottom: 5px;
+        line-height: 1.9;
+    }
+    .Form-group {
+        margin-bottom: 0px;
+    }
+    .Map iframe {
+        height: 250px;
+    }
+    .Form-group input::placeholder{
+        font-size: 14px;
+    }
+    .Form-group textarea::placeholder{
+        font-size: 14px;
+    }
+}
