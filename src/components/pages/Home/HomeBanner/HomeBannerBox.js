@@ -56,7 +56,7 @@ export const HomeBannerBox = () => {
                     Our trainers are Professional and have real work experience in the industry and have a proven track record in producing the best hospitality talents
 
                     </h5>
-                    <h6><a href="">Start Now !</a></h6>
+                    <h6>Start Now !</h6>
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -79,7 +79,7 @@ export const HomeBannerBox = () => {
                     Our certificate are recognized globally by city and Guilds (London), and locally by Kenya MoE
 
                     </h5>
-                    <h6><a href="">Start Now !</a></h6>
+                    <a href=""><h6>Start Now !</h6></a>
                   </Card.Text>
                 </Card.Body>
               </Card>

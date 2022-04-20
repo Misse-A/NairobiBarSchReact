@@ -26,17 +26,15 @@ export const Learing = () => {
                   data-aos-duration="1500"
                   onScroll="AOS"
                 >
-                  <h6>~ online learning</h6>
-                  <h2>Build Your Skills Learn online,Anytime</h2>
+                  <h6>~ Get to Know Us</h6>
+                  <h2>Who are we</h2>
                   <p>
-                    Want to learn and earn PDUs or CEUs on your schedule —
-                    anytime, anywhere? Or, pick up a new skill quickly like,
-                    project team leadership or agile? Browse our most popular
-                    online courses
+                  NBS is a training centre certified internationally by City & Guilds of London and locally accredited by The Ministry of Higher Education. We offer Certificate and Diploma in Bartending and Mixology Course, Certificate and Diploma in Barista training and coffee skills, Certificate and Diploma in Pastry and Baking course, Diploma in Food Production and Culinary arts.
+
                   </p>
                   <p>
-                    Grow your knowledge and your opportunities with thought
-                    leadership, training and tools.
+                    We are a premier institution specializing in training of hospitality professionals
+                    .
                   </p>
                   <div>
                     <Button className="btn-box-common">View All Courses</Button>

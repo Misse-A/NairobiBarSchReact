@@ -11,11 +11,9 @@ export const CourseData = [
         id: 1,
         image: img1,
         price:"$59",
-        title: "Jone Smit",
         text: "Java Programming Master Class For Software Developer Education",
         lesson: "0 Lessons",
         student: "15 Students",
-        profileicon: <BsPersonCircle />,
         lessonicon:  <BiBookAlt />,
         studenticon: <HiOutlineUserGroup />
     },
