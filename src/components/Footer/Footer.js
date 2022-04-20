@@ -29,34 +29,27 @@ export const Footer = () => {
                 </div>
 
                 <p>
-                  Axacus Consultancy is a one-stop shop offering accounting,
-                  financial and advisory services. Beneficial experienced
-                  finance professionals.
+                Nairobi is a training centre certified internationally by City 
+                & Guilds of London and locally accredited by The Ministry 
+                of Higher Education.
                 </p>
                 <ul className="list-unstyled social-icon">
                   <li className="d-inline-block ">
-                    <a href="/" className="d-block">
+                    <a href="https://www.facebook.com/Nairobibarschool/" className="d-block">
                       <i>
                         <GrFacebookOption />
                       </i>
                     </a>
                   </li>
                   <li className="d-inline-block">
-                    <a href="/" className="d-block">
+                    <a href="https://www.facebook.com/Nairobibarschool/" className="d-block">
                       <i>
                         <FaLinkedinIn />
                       </i>
                     </a>
                   </li>
                   <li className="d-inline-block">
-                    <a href="/" className="d-block">
-                      <i>
-                        <FaPinterestP />
-                      </i>
-                    </a>
-                  </li>
-                  <li className="d-inline-block">
-                    <a href="/" className="d-block">
+                    <a href="https://www.facebook.com/Nairobibarschool/" className="d-block">
                       <i>
                         <BsTwitter />
                       </i>
@@ -146,24 +139,24 @@ export const Footer = () => {
                 <Collapse in={Copen}>
                   <ul className="list-unstyled">
                     <li>
-                      <h4>Address :</h4>
-                      <span>6701 Democracy Blvd,Suite 300, USA</span>
+                      <h4>Location :</h4>
+                      <span>2nd Floor, Ghale Hse Moi Avenue</span>
                     </li>
                     <li>
                       <h4>Call :</h4>
-                      <span>+91-1234567890</span>
+                      <span>+254 725 476 258</span>
                     </li>
                     <li>
-                      <h4>Fax :</h4>
+                      <h4>Email :</h4>
                       <span>+91 -251 541 2548</span>
                     </li>
                     <li>
                       <h4>Email :</h4>
-                      <span>info@example.com</span>
+                      <span>info@nairobibarschool.com</span>
                     </li>
                     <li>
-                      <h4>Website :</h4>
-                      <span>infoexample.com</span>
+                      <h4>Opening Hours</h4>
+                      <span>Mon-Fri (8am - 7pm)</span>
                     </li>
                   </ul>
                 </Collapse>
@@ -171,9 +164,9 @@ export const Footer = () => {
             </Col>
           </Row>
           <div className="Footer-bottom">
-            <h6 className="F-policy">Privacy Policy / Terms & Condition </h6>
+            <h6 className="F-policy">Nairobi Bar School</h6>
             <h6 className="F-copywrite">
-              Copyright © 2021 . All Rights Reserved
+              Copyright © 2022 . All Rights Reserved
             </h6>
           </div>
         </Container>

@@ -74,7 +74,7 @@ export default function Header() {
                       </NavDropdown.Item>
 
                       <NavDropdown.Item href="#terms">
-                        <Link to="/terms">Trems & Condition</Link>
+                        <Link to="/terms">Terms & Conditions</Link>
                       </NavDropdown.Item>
 
                       <NavDropdown.Item href="#policy">
@@ -120,7 +120,7 @@ export default function Header() {
                   <i>
                     <BsPerson />
                   </i>
-                  <h4>Login/Register</h4>{" "}
+                  <h4>Sign up</h4>{" "}
                 </Link>
               </Button>
             </Navbar>
