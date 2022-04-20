@@ -21,10 +21,7 @@ export const ContactDetail = () => {
                     <h6>Contact</h6>
                     <h2>Get in Touch</h2>
                     <p>
-                      Want to learn and earn PDUs or CEUs on your schedule —
-                      anytime, anywhere? Or, pick up a new skill quickly like,
-                      project team leadership or agile? Browse our most popular
-                      online courses
+                      Get in touch and experience the best bar school
                     </p>
                   </div>
                   <div className="Contact-Social">
@@ -37,15 +34,8 @@ export const ContactDetail = () => {
                         <div>
                           <span className="Contact-Social-text">Mail :</span>
                           <span className="Contact-no-mail">
-                            info@example.com
+                          info@nairobibarschool.com
                           </span>
-
-                          <div>
-                            <span className="Contact-Social-text">Gmail :</span>
-                            <span className="Contact-no-mail">
-                              info@example@gmail.com
-                            </span>
-                          </div>
                         </div>
                       </div>
                     </div>
@@ -59,15 +49,8 @@ export const ContactDetail = () => {
                         <div>
                           <span className="Contact-Social-text">Mobile :</span>
                           <span className="Contact-no-mail">
-                            +91-1234567890
+                          +254 725 476 258
                           </span>
-
-                          <div>
-                            <span className="Contact-Social-text">Fex :</span>
-                            <span className="Contact-no-mail">
-                              +91 -251 541 2548
-                            </span>
-                          </div>
                         </div>
                       </div>
                     </div>
@@ -84,15 +67,15 @@ export const ContactDetail = () => {
                               Monday - Friday :
                             </span>
                             <span className="Contact-Social-text">
-                              09.00 - 20.00
+                              8am - 7pm
                             </span>
                           </div>
                           <div>
                             <span className="Contact-Social-text">
-                              Sunday & Saturday :
+                              Weekend & Holidays :
                             </span>
                             <span className="Contact-Social-text">
-                              10.30 - 22.30
+                              Closed
                             </span>
                           </div>
                         </div>
@@ -176,7 +159,7 @@ export const ContactDetail = () => {
         </Container>
         <div className="Map">
           <Iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.521260322283!2d106.8195613507864!3d-6.194741395493371!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5390917b759%3A0x6b45e67356080477!2sPT%20Kulkul%20Teknologi%20Internasional!5e0!3m2!1sen!2sid!4v1601138221085!5m2!1sen!2sid"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4477.301352684653!2d36.81591033267521!3d-1.2801651139958254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f10d49404dc2b%3A0xac00abc77c213d5b!2sGhale%20House!5e0!3m2!1sen!2ske!4v1626603901780!5m2!1sen!2ske"
             frameBorder="0"
             height="450"
           />

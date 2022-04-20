@@ -10,9 +10,9 @@ export const CourseData = [
     {
         id: 1,
         image: img1,
-        price:"$59",
+        price:"KES 35,000",
         title: "Jone Smit",
-        text: "Java Programming Master Class For Software Developer Education",
+        text: "Many More",
         lesson: "0 Lessons",
         student: "15 Students",
         profileicon: <BsPersonCircle />,
