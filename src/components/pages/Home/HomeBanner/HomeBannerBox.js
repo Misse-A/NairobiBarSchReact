@@ -26,14 +26,14 @@ export const HomeBannerBox = () => {
                     />
                   </Card.Title>
                   <Card.Subtitle>
-                    <h4>Learn the latest skills Develop</h4>
+                    <h4>Practical Teaching</h4>
                   </Card.Subtitle>
                   <Card.Text>
                     <h5>
-                      Lorem ipsum dolor sit amet, consecteur adipiscing elit,
-                      sed do eiusmod tempor.
+                    Our courses are based on 'learning by doing' – hands-on, practical training in a realistic environments coupled with innovations and creativity.
+
                     </h5>
-                    <h6>Start Now !</h6>
+                    <h6><a href=""> Start Now !</a></h6>
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -49,14 +49,14 @@ export const HomeBannerBox = () => {
                     />
                   </Card.Title>
                   <Card.Subtitle className="cardtitle ">
-                    <h4>Go at Your Own Pace Academy</h4>
+                    <h4>Experienced trainers</h4>
                   </Card.Subtitle>
                   <Card.Text className="service-text">
                     <h5>
-                      Lorem ipsum dolor sit amet, consecteur adipiscing elit,
-                      sed do eiusmod tempor.
+                    Our trainers are Professional and have real work experience in the industry and have a proven track record in producing the best hospitality talents
+
                     </h5>
-                    <h6>Start Now !</h6>
+                    <h6><a href="">Start Now !</a></h6>
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -72,14 +72,14 @@ export const HomeBannerBox = () => {
                     />
                   </Card.Title>
                   <Card.Subtitle className="cardtitle ">
-                    <h4>Learn From Industry Experts</h4>
+                    <h4>Accredited Certificates</h4>
                   </Card.Subtitle>
                   <Card.Text className="service-text">
                     <h5>
-                      Lorem ipsum dolor sit amet, consecteur adipiscing elit,
-                      sed do eiusmod tempor.
+                    Our certificate are recognized globally by city and Guilds (London), and locally by Kenya MoE
+
                     </h5>
-                    <h6>Start Now !</h6>
+                    <h6><a href="">Start Now !</a></h6>
                   </Card.Text>
                 </Card.Body>
               </Card>
