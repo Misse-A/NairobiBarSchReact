@@ -33,7 +33,7 @@ export const HomeBannerBox = () => {
                     Our courses are based on 'learning by doing' – hands-on, practical training in a realistic environments coupled with innovations and creativity.
 
                     </h5>
-                    <h6><a href=""> Start Now !</a></h6>
+                    <Button className="btn-box-common">View All Courses</Button>
                   </Card.Text>
                 </Card.Body>
               </Card>
